@@ -1,0 +1,110 @@
+[
+  [],
+  [
+    { "type": "A", "value": "104.18.22.4", "ttl": 300 },
+    { "type": "A", "value": "104.18.23.4", "ttl": 300 },
+    {
+      "type": "CNAME",
+      "value": "fun-sdp.xlaxiata.co.id.cdn.cloudflare.net",
+      "ttl": 21600
+    },
+    {
+      "type": "CNAME",
+      "value": "fun-sdp.xlaxiata.co.id.cdn.cloudflare.net",
+      "ttl": 21599
+    },
+    { "type": "AAAA", "value": "2606:4700::6812:1604", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700::6812:1704", "ttl": 300 }
+  ],
+  [
+    { "type": "A", "value": "104.18.22.4", "ttl": 300 },
+    { "type": "A", "value": "104.18.23.4", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700::6812:1704", "ttl": 300 },
+    {
+      "type": "CNAME",
+      "value": "repo.xlaxiata.co.id.cdn.cloudflare.net",
+      "ttl": 21599
+    },
+    {
+      "type": "CNAME",
+      "value": "repo.xlaxiata.co.id.cdn.cloudflare.net",
+      "ttl": 21598
+    },
+    {
+      "type": "CNAME",
+      "value": "repo.xlaxiata.co.id.cdn.cloudflare.net",
+      "ttl": 21600
+    },
+    { "type": "AAAA", "value": "2606:4700::6812:1604", "ttl": 300 }
+  ],
+  [
+    { "type": "A", "value": "104.18.22.4", "ttl": 300 },
+    {
+      "type": "CNAME",
+      "value": "spesialuntukmu.xlaxiata.co.id.cdn.cloudflare.net",
+      "ttl": 21599
+    },
+    { "type": "A", "value": "104.18.23.4", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700::6812:1704", "ttl": 300 },
+    {
+      "type": "CNAME",
+      "value": "spesialuntukmu.xlaxiata.co.id.cdn.cloudflare.net",
+      "ttl": 21600
+    },
+    { "type": "AAAA", "value": "2606:4700::6812:1604", "ttl": 300 }
+  ],
+  [
+    { "type": "A", "value": "52.20.171.118", "ttl": 60 },
+    { "type": "A", "value": "52.73.254.51", "ttl": 60 },
+    {
+      "type": "CNAME",
+      "value": "awseb-awseb-1wn8dsem5wuod-283152826.us-east-1.elb.amazonaws.com",
+      "ttl": 1800
+    }
+  ],
+  [
+    { "type": "A", "value": "104.18.22.4", "ttl": 300 },
+    { "type": "A", "value": "104.18.23.4", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700::6812:1704", "ttl": 300 },
+    {
+      "type": "CNAME",
+      "value": "developer.xlaxiata.co.id.cdn.cloudflare.net",
+      "ttl": 21600
+    },
+    { "type": "AAAA", "value": "2606:4700::6812:1604", "ttl": 300 },
+    {
+      "type": "CNAME",
+      "value": "developer.xlaxiata.co.id.cdn.cloudflare.net",
+      "ttl": 21599
+    }
+  ],
+  [
+    { "type": "A", "value": "20.53.137.97", "ttl": 21600 },
+    { "type": "CNAME", "value": "xlaxiata.jobs2web.com", "ttl": 299 },
+    {
+      "type": "CNAME",
+      "value": "careers.xlaxiata.co.id.cdn.cloudflare.net",
+      "ttl": 21600
+    },
+    {
+      "type": "CNAME",
+      "value": "careers.xlaxiata.co.id.cdn.cloudflare.net",
+      "ttl": 21598
+    },
+    { "type": "CNAME", "value": "RMK10.jobs2web.com", "ttl": 1799 },
+    { "type": "CNAME", "value": "xlaxiata.jobs2web.com", "ttl": 300 },
+    { "type": "CNAME", "value": "RMK10.jobs2web.com", "ttl": 1800 }
+  ],
+  [
+    {
+      "type": "CNAME",
+      "value": "www.xlaxiata.co.id.cdn.cloudflare.net",
+      "ttl": 21600
+    },
+    { "type": "A", "value": "104.18.22.4", "ttl": 300 },
+    { "type": "A", "value": "104.18.23.4", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700::6812:1704", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700::6812:1604", "ttl": 300 }
+  ],
+  [{ "type": "A", "value": "112.215.105.127", "ttl": 30 }]
+]

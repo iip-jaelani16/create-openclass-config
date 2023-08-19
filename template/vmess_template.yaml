@@ -1,0 +1,204 @@
+  - name: '{name} | bug->bug->server'
+    server: '{bug}' #override
+    port: 443
+    type: vmess
+    uuid: '{uuid}'
+    alterId: '{aid}'
+    cipher: auto
+    tls: '{tls}'
+    skip-cert-verify: true
+    servername: '{bug}' #override
+    network: ws
+    ws-opts:
+      path: '{path}'
+      headers:
+        Host: '{server}' #override
+    udp: '{udp}'
+  #------------------ 2
+  - name: '{name} | bug->server->bug'
+    server: '{bug}' #override
+    port: 443
+    type: vmess
+    uuid: '{uuid}'
+    alterId: '{aid}'
+    cipher: auto
+    tls: '{tls}'
+    skip-cert-verify: true
+    servername: '{server}' #override
+    network: ws
+    ws-opts:
+      path: '{path}'
+      headers:
+        Host: '{bug}' #override
+    udp: '{udp}'
+  #------------------ 3
+  - name: '{name} | bug->server->server'
+    server: '{bug}' #override
+    port: 443
+    type: vmess
+    uuid: '{uuid}'
+    alterId: '{aid}'
+    cipher: auto
+    tls: '{tls}'
+    skip-cert-verify: true
+    servername: '{server}' #override
+    network: ws
+    ws-opts:
+      path: '{path}'
+      headers:
+        Host: '{server}' #override
+    udp: '{udp}'
+  #------------------ 4
+  - name: '{name} | server->bug->bug'
+    server: '{server}' #override
+    port: 443
+    type: vmess
+    uuid: '{uuid}'
+    alterId: '{aid}'
+    cipher: auto
+    tls: '{tls}'
+    skip-cert-verify: true
+    servername: '{bug}' #override
+    network: ws
+    ws-opts:
+      path: '{path}'
+      headers:
+        Host: '{bug}' #override
+    udp: '{udp}'
+  #------------------ 5
+  - name: '{name} | server->bug->server'
+    server: '{server}' #override
+    port: 443
+    type: vmess
+    uuid: '{uuid}'
+    alterId: '{aid}'
+    cipher: auto
+    tls: '{tls}'
+    skip-cert-verify: true
+    servername: '{bug}' #override
+    network: ws
+    ws-opts:
+      path: '{path}'
+      headers:
+        Host: '{server}' #override
+    udp: '{udp}'
+  #------------------ 6
+  - name: '{name} | server->server->bug'
+    server: '{server}' #override
+    port: 443
+    type: vmess
+    uuid: '{uuid}'
+    alterId: '{aid}'
+    cipher: auto
+    tls: '{tls}'
+    skip-cert-verify: true
+    servername: '{server}' #override
+    network: ws
+    ws-opts:
+      path: '{path}'
+      headers:
+        Host: '{bug}' #override
+    udp: '{udp}'
+
+  #------------------ 1
+  - name: '{name} | bug->bug->server 2'
+    server: '{bug}' #override
+    port: 80
+    type: vmess
+    uuid: '{uuid}'
+    alterId: '{aid}'
+    cipher: auto
+    tls: '{tls}'
+    skip-cert-verify: true
+    servername: '{bug}' #override
+    network: ws
+    ws-opts:
+      path: '{path}'
+      headers:
+        Host: '{server}' #override
+    udp: '{udp}'
+  #------------------ 2
+  - name: '{name} | bug->server->bug 2'
+    server: '{bug}' #override
+    port: 80
+    type: vmess
+    uuid: '{uuid}'
+    alterId: '{aid}'
+    cipher: auto
+    tls: '{tls}'
+    skip-cert-verify: true
+    servername: '{server}' #override
+    network: ws
+    ws-opts:
+      path: '{path}'
+      headers:
+        Host: '{bug}' #override
+    udp: '{udp}'
+  #------------------ 3
+  - name: '{name} | bug->server->server 2'
+    server: '{bug}' #override
+    port: 80
+    type: vmess
+    uuid: '{uuid}'
+    alterId: '{aid}'
+    cipher: auto
+    tls: '{tls}'
+    skip-cert-verify: true
+    servername: '{server}' #override
+    network: ws
+    ws-opts:
+      path: '{path}'
+      headers:
+        Host: '{server}' #override
+    udp: '{udp}'
+  #------------------ 4
+  - name: '{name} | server->bug->bug 2'
+    server: '{server}' #override
+    port: 80
+    type: vmess
+    uuid: '{uuid}'
+    alterId: '{aid}'
+    cipher: auto
+    tls: '{tls}'
+    skip-cert-verify: true
+    servername: '{bug}' #override
+    network: ws
+    ws-opts:
+      path: '{path}'
+      headers:
+        Host: '{bug}' #override
+    udp: '{udp}'
+  #------------------ 5
+  - name: '{name} | server->bug->server 2'
+    server: '{server}' #override
+    port: 80
+    type: vmess
+    uuid: '{uuid}'
+    alterId: '{aid}'
+    cipher: auto
+    tls: '{tls}'
+    skip-cert-verify: true
+    servername: '{bug}' #override
+    network: ws
+    ws-opts:
+      path: '{path}'
+      headers:
+        Host: '{server}' #override
+    udp: '{udp}'
+  #------------------ 6
+  - name: '{name} | server->server->bug 2'
+    server: '{server}' #override
+    port: 80
+    type: vmess
+    uuid: '{uuid}'
+    alterId: '{aid}'
+    cipher: auto
+    tls: '{tls}'
+    skip-cert-verify: true
+    servername: '{server}' #override
+    network: ws
+    ws-opts:
+      path: '{path}'
+      headers:
+        Host: '{bug}' #override
+    udp: '{udp}'

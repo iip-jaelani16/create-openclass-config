@@ -1,0 +1,93 @@
+proxies:
+  - name: 'sg3-mlb.v2rayserv.com connect.facebook.net-ws | server 111'
+    server: sg3-mlb.v2rayserv.com
+    port: 443
+    type: vmess
+    uuid: baa1d984-5007-4bb5-9018-124d87d864f7
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: connect.facebook.net
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: connect.facebook.net
+    udp: true
+  - name: 'sshocean-keytaro7-connect.facebook.net-ws | server'
+    server: sg-9.0rd.net
+    port: 443
+    type: vmess
+    uuid: d9473b50-bef9-11ed-b036-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: connect.facebook.net
+    network: ws
+    ws-opts:
+      path: /cq2l4in8
+      headers:
+        Host: connect.facebook.net
+    udp: true
+  - name: 'sshocean-root_trojan_ws- connect.facebook.net | server trojan'
+    server: idt2.sshocean.net
+    port: 443
+    type: trojan
+    password: 981b0d23-eb85-4f28-a6d3-73fb571c9637
+    skip-cert-verify: true
+    sni: connect.facebook.net
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: idt2.sshocean.net
+    udp: true
+  # -------------------
+  - name: 'sg3-mlb.v2rayserv.com connect.facebook.net-ws | server 222'
+    server: sg3-mlb.v2rayserv.com
+    port: 443
+    type: vmess
+    uuid: baa1d984-5007-4bb5-9018-124d87d864f7
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 31.13.95.13
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 31.13.95.13
+    udp: true
+  - name: 'sshocean-keytaro7-31.13.95.13-ws | server'
+    server: sg-9.0rd.net
+    port: 443
+    type: vmess
+    uuid: d9473b50-bef9-11ed-b036-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 31.13.95.13
+    network: ws
+    ws-opts:
+      path: /cq2l4in8
+      headers:
+        Host: 31.13.95.13
+    udp: true
+  - name: 'sshocean-root_trojan_ws- 31.13.95.13 | server trojan'
+    server: idt2.sshocean.net
+    port: 443
+    type: trojan
+    password: 981b0d23-eb85-4f28-a6d3-73fb571c9637
+    skip-cert-verify: true
+    sni: 31.13.95.13
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: idt2.sshocean.net
+    udp: true
+# -------------------

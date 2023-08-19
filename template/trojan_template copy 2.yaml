@@ -1,0 +1,24 @@
+  - name: '{name} | server trojan'
+    server: '{server}'
+    port: '{port}'
+    type: trojan
+    password: '{password}'
+    skip-cert-verify: true
+    sni: '{bug}'
+    network: ws
+    ws-opts:
+      path: '{path}'
+      headers:
+        Host: '{server}'
+    udp: '{udp}'
+  - name: '{name} | grpc server'
+    server: '{server}'
+    port: '{port}'
+    type: trojan
+    password: '{password}'
+    skip-cert-verify: true
+    sni: '{bug}'
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: '{udp}'

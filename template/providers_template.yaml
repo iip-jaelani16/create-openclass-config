@@ -1,0 +1,7 @@
+  provider_name:
+    type: file
+    path: './proxy_provider/{filename}.yaml'
+    health-check:
+      enable: true
+      url: http://cp.cloudflare.com/generate_204
+      interval: 300

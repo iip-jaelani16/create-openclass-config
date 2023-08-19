@@ -1,0 +1,127 @@
+  - name: '{name} | bug->bug->server'
+    server: '{bug}'
+    port: '{port}'
+    type: trojan
+    password: '{password}'
+    skip-cert-verify: true
+    sni: '{bug}'
+    network: ws
+    ws-opts:
+      path: '{path}'
+      headers:
+        Host: '{server}'
+    udp: '{udp}'
+  - name: '{name} | bug->server->bug'
+    server: '{bug}'
+    port: '{port}'
+    type: trojan
+    password: '{password}'
+    skip-cert-verify: true
+    sni: '{server}'
+    network: ws
+    ws-opts:
+      path: '{path}'
+      headers:
+        Host: '{bug}'
+    udp: '{udp}'
+  - name: '{name} | bug->server->server'
+    server: '{bug}'
+    port: '{port}'
+    type: trojan
+    password: '{password}'
+    skip-cert-verify: true
+    sni: '{server}'
+    network: ws
+    ws-opts:
+      path: '{path}'
+      headers:
+        Host: '{server}'
+    udp: '{udp}'
+  - name: '{name} | server->bug->bug'
+    server: '{server}'
+    port: '{port}'
+    type: trojan
+    password: '{password}'
+    skip-cert-verify: true
+    sni: '{bug}'
+    network: ws
+    ws-opts:
+      path: '{path}'
+      headers:
+        Host: '{bug}'
+    udp: '{udp}'
+  - name: '{name} | server->bug->server'
+    server: '{server}'
+    port: '{port}'
+    type: trojan
+    password: '{password}'
+    skip-cert-verify: true
+    sni: '{bug}'
+    network: ws
+    ws-opts:
+      path: '{path}'
+      headers:
+        Host: '{server}'
+    udp: '{udp}'
+  - name: '{name} | server->server->bug'
+    server: '{server}'
+    port: '{port}'
+    type: trojan
+    password: '{password}'
+    skip-cert-verify: true
+    sni: '{server}'
+    network: ws
+    ws-opts:
+      path: '{path}'
+      headers:
+        Host: '{bug}'
+    udp: '{udp}'
+
+  # --------------- grpc  trojan 1
+  - name: '{name} | grpc bug->server'
+    server: '{bug}'
+    port: '{port}'
+    type: trojan
+    password: '{password}'
+    skip-cert-verify: true
+    sni: '{server}'
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: '{udp}'
+    # --------------- grpc  trojan 2
+  - name: '{name} | grpc bug->bug'
+    server: '{bug}'
+    port: '{port}'
+    type: trojan
+    password: '{password}'
+    skip-cert-verify: true
+    sni: '{bug}'
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: '{udp}'
+    # --------------- grpc  trojan 3
+  - name: '{name} | grpc server->bug'
+    server: '{server}'
+    port: '{port}'
+    type: trojan
+    password: '{password}'
+    skip-cert-verify: true
+    sni: '{bug}'
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: '{udp}'
+    # --------------- grpc  trojan 4
+  - name: '{name} | grpc | server->server'
+    server: '{server}'
+    port: '{port}'
+    type: trojan
+    password: '{password}'
+    skip-cert-verify: true
+    sni: '{server}'
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: '{udp}'

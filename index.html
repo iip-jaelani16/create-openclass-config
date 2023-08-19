@@ -1,0 +1,73 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge ; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+    <title>Sony Music News</title>
+       <script type="text/javascript">
+    USER_LANG = 'de';
+       USER_COUNTRY= 'D';</script>
+
+    <script type="text/javascript">
+        var Ext = Ext || {}; // Ext namespace won't be defined yet...
+        isProd = false;
+        redirectUrl ="https://uat-auth-console.sonymusic.com/oauth2/openid/v1/authorize?scope=openid&response_type=code&redirect_uri=https://dev.sonymusicnews.pl/data/openid/validate&state=sonymusicnews&nonce=1681413055941&client_id=SDIcWhiKiZkNGpRUUZQQyo1bWg";
+
+        // This function is called by the Microloader after it has performed basic
+        // device detection. The results are provided in the "tags" object. You can
+        // use these tags here or even add custom tags. These can be used by platform
+        // filters in your manifest or by platformConfig expressions in your app.
+        //
+        Ext.beforeLoad = function (tags) {
+            var s = location.search,  // the query string (ex "?foo=1&bar")
+                profile;
+
+            // For testing look for "?classic" or "?modern" in the URL to override
+            // device detection default.
+            //
+            if (s.match(/\bclassic\b/)) {
+                profile = 'classic';
+            }
+            else if (s.match(/\bmodern\b/)) {
+                profile = 'modern';
+            }
+            else {
+                profile = tags.desktop ? 'classic' : 'modern';
+                //profile = tags.phone ? 'modern' : 'classic';
+            }
+
+            Ext.manifest = 'classic'//profile; // this name must match a build profile name
+
+            // This function is called once the manifest is available but before
+            // any data is pulled from it.
+            //
+            //return function (manifest) {
+                // peek at / modify the manifest object
+            //};
+
+            // Loads in the CSS for application loading mask
+            document.write('<link rel="stylesheet" type="text/css" href="' + profile + '/resources/css/loading.css" />');
+            
+        };
+
+    </script>
+    <!-- The line below must be kept intact for Sencha Cmd to build your application -->
+    <script  id="microloader" data-app="76115416-1290-456b-a96d-af25f046df45" src="microloader.js"></script>
+</head>
+<body>
+    <div id="loading-wrapper">
+        <div id="custom-loader"></div>
+        <!--p class="loading">Sony Music News<br> is loading</p-->
+    </div>
+</body>
+</html>

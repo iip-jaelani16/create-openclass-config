@@ -1,0 +1,590 @@
+[
+  "img-avatar-shop-th.ruangguru.com",
+  "gw-kube.ruangguru.com",
+  "crm-report.ruangguru.com",
+  "crm-platform-staging.ruangguru.com",
+  "ase1-glo-infra-1-cf.ruangguru.com",
+  "experiment-stg.ruangguru.com",
+  "discord.ruangguru.com",
+  "telems.ruangguru.com",
+  "ruker-dashboard-staging.ruangguru.com",
+  "form-pulsa.ruangguru.com",
+  "video-preview.ruangguru.com",
+  "gw-backup.ruangguru.com",
+  "sfuv2.ruangguru.com",
+  "core-m-new-staging.ruangguru.com",
+  "bugbounty.ruangguru.com",
+  "gw-th.ruangguru.com",
+  "ampere.ruangguru.com",
+  "gw-id.ruangguru.com",
+  "tesla.ruangguru.com",
+  "coturn-server-1.ruangguru.com",
+  "sfuv3.ruangguru.com",
+  "budi.ruangguru.com",
+  "sso.ruangguru.com",
+  "f.ruangguru.com",
+  "jsp-sg-1.ruangguru.com",
+  "form-pulsa-staging.ruangguru.com",
+  "discord-staging.ruangguru.com",
+  "pengajar-staging.ruangguru.com",
+  "gw-th-test.ruangguru.com",
+  "video-service-prod.ruangguru.com",
+  "janus-n5.ruangguru.com",
+  "otelcol-web-stag-id.ruangguru.com",
+  "rubay-proxy-prod.ruangguru.com",
+  "jtp-sg-1.ruangguru.com",
+  "rubel-service-prod.ruangguru.com",
+  "gw-vn.ruangguru.com",
+  "jtp-sg-0.ruangguru.com",
+  "otg-service.ruangguru.com",
+  "pengajar.ruangguru.com",
+  "jsp-sg-0.ruangguru.com",
+  "data.ruangguru.com",
+  "quizzo-admin.ruangguru.com",
+  "image-optimizer.ruangguru.com",
+  "reward-form.ruangguru.com",
+  "kampus.ruangguru.com",
+  "cdn-web-2.ruangguru.com",
+  "jwp-id.ruangguru.com",
+  "layanan.ruangguru.com",
+  "tryout-image.ruangguru.com",
+  "wifi.ruangguru.com",
+  "share.ruangguru.com",
+  "diskon.ruangguru.com",
+  "101.ruangguru.com",
+  "pensi.ruangguru.com",
+  "rk.ruangguru.com",
+  "bts.ruangguru.com",
+  "ipc.ruangguru.com",
+  "app.ruangguru.com",
+  "camp.ruangguru.com",
+  "img-avatar-shop-vn.ruangguru.com",
+  "form.ruangguru.com",
+  "form-staging.ruangguru.com",
+  "th-oc.ruangguru.com",
+  "jsp-sg-4.ruangguru.com",
+  "rubel-desktop-update.ruangguru.com",
+  "sfuv1.ruangguru.com",
+  "io.ruangguru.com",
+  "otelcol-web-prod-id.ruangguru.com",
+  "latihan.ruangguru.com",
+  "dafalulu.ruangguru.com",
+  "kampusmerdeka.ruangguru.com",
+  "rg-whatsapp-proxy-internal.ruangguru.com",
+  "ticketing.ruangguru.com",
+  "ticketing-staging.ruangguru.com",
+  "get.ruangguru.com",
+  "ads.ruangguru.com",
+  "pdf-cdn.ruangguru.com",
+  "rea.ruangguru.com",
+  "liga.ruangguru.com",
+  "roboguru-forum-cdn.ruangguru.com",
+  "core.ruangguru.com",
+  "img-parental-report.ruangguru.com",
+  "klub-hobi.ruangguru.com",
+  "cms.ruangguru.com",
+  "king.ruangguru.com",
+  "sumsel.ruangguru.com",
+  "hchat.ruangguru.com",
+  "account-staging.ruangguru.com",
+  "rubel-video-test.ruangguru.com",
+  "rg-whatsapp-proxy-roboguru-internal.ruangguru.com",
+  "staging-line-to.ruangguru.com",
+  "staging-uji.ruangguru.com",
+  "ase1-glo-infra-1.ruangguru.com",
+  "to2.ruangguru.com",
+  "email-service-prod.ruangguru.com",
+  "leap.ruangguru.com",
+  "faraday.ruangguru.com",
+  "cdn-web.ruangguru.com",
+  "crm.ruangguru.com",
+  "core-gov.ruangguru.com",
+  "gov2.ruangguru.com",
+  "wiris-staging.ruangguru.com",
+  "istio-kong.ruangguru.com",
+  "referral.ruangguru.com",
+  "gw-test.ruangguru.com",
+  "robogr.ruangguru.com",
+  "asuransi.ruangguru.com",
+  "roboguruinfo.ruangguru.com",
+  "notification.ruangguru.com",
+  "rasionalisasi.ruangguru.com",
+  "hiring-dashboard.ruangguru.com",
+  "meet.ruangguru.com",
+  "rg-new-test.ruangguru.com",
+  "roboguru-ui.ruangguru.com",
+  "kelas-beta.ruangguru.com",
+  "rg-whatsapp-proxy-roboguru.ruangguru.com",
+  "liveteaching.ruangguru.com",
+  "uji2.ruangguru.com",
+  "kang.ruangguru.com",
+  "career-staging.ruangguru.com",
+  "kelas-cdn.ruangguru.com",
+  "to1.ruangguru.com",
+  "rapor.ruangguru.com",
+  "id-oc.ruangguru.com",
+  "image-service-prod.ruangguru.com",
+  "vn-oc.ruangguru.com",
+  "ops-pesan.ruangguru.com",
+  "edu.ruangguru.com",
+  "rg.ruangguru.com",
+  "gw-kube-staging.ruangguru.com",
+  "maxwell.ruangguru.com",
+  "img-roboguru.ruangguru.com",
+  "star.ruangguru.com",
+  "roboguru.ruangguru.com",
+  "account.ruangguru.com",
+  "roboguru-admin.ruangguru.com",
+  "payment.ruangguru.com",
+  "uji-staging.ruangguru.com",
+  "master-gw.ruangguru.com",
+  "ruangguru.com",
+  "utbk.ruangguru.com",
+  "azk.ruangguru.com",
+  "img-live-classroom.ruangguru.com",
+  "ivq-image.ruangguru.com",
+  "admin-rg.ruangguru.com",
+  "aliyun-cdn.ruangguru.com",
+  "backend.ruangguru.com",
+  "gorontalo.ruangguru.com",
+  "hai-online.ruangguru.com",
+  "home.ruangguru.com",
+  "landing.ruangguru.com",
+  "line-to.ruangguru.com",
+  "lineacademy.ruangguru.com",
+  "mailblaster.ruangguru.com",
+  "oldtes.ruangguru.com",
+  "tes.ruangguru.com",
+  "to3.ruangguru.com",
+  "img-ruangguru-gam.ruangguru.com",
+  "champion.ruangguru.com",
+  "gw-staging.ruangguru.com",
+  "tracker-staging.ruangguru.com",
+  "core-coba.ruangguru.com",
+  "imgix3.ruangguru.com",
+  "kelas.ruangguru.com",
+  "belajar.ruangguru.com",
+  "img-video-tracking.ruangguru.com",
+  "img-vote.ruangguru.com",
+  "img-question-vn.ruangguru.com",
+  "img-ruangguru-uji.ruangguru.com",
+  "img.ruangguru.com",
+  "img-certificate.ruangguru.com",
+  "img-video-tracking-vn.ruangguru.com",
+  "img-video-tracking-th.ruangguru.com",
+  "img-avatar-shop.ruangguru.com",
+  "game-prod-cdn.ruangguru.com",
+  "img-core.ruangguru.com",
+  "ng.ruangguru.com",
+  "me.ruangguru.com",
+  "promo.ruangguru.com",
+  "event.ruangguru.com",
+  "uji.ruangguru.com",
+  "video-thumbnail.ruangguru.com",
+  "id-video-bundler.ruangguru.com",
+  "ruangguru-gam-cdn.ruangguru.com",
+  "avatar-shop-cdn.ruangguru.com",
+  "ruang-certificate-cdn.ruangguru.com",
+  "imgix2.ruangguru.com",
+  "mitra.ruangguru.com",
+  "ops.ruangguru.com",
+  "imgix.ruangguru.com",
+  "tps.ruangguru.com",
+  "aceh.ruangguru.com",
+  "old.ruangguru.com",
+  "vn-rubel-video-cdn.ruangguru.com",
+  "govadmin.ruangguru.com",
+  "wiris.ruangguru.com",
+  "video.ruangguru.com",
+  "to.ruangguru.com",
+  "internship.ruangguru.com",
+  "orangtua.ruangguru.com",
+  [
+    { "type": "A", "value": "47.246.24.232", "ttl": 60 },
+    { "type": "A", "value": "47.246.24.225", "ttl": 60 },
+    { "type": "A", "value": "47.246.24.230", "ttl": 60 },
+    { "type": "A", "value": "47.246.24.231", "ttl": 60 },
+    { "type": "A", "value": "47.246.24.227", "ttl": 60 },
+    { "type": "A", "value": "47.246.24.228", "ttl": 60 },
+    { "type": "A", "value": "47.246.24.229", "ttl": 60 },
+    {
+      "type": "CNAME",
+      "value": "rubel-video-cdn-two.ruangguru.com.w.cdngslb.com",
+      "ttl": 300
+    },
+    { "type": "A", "value": "47.246.24.226", "ttl": 60 }
+  ],
+  [
+    {
+      "type": "CNAME",
+      "value": "live-streaming.ruangguru.com.akamaized.net",
+      "ttl": 299
+    },
+    { "type": "CNAME", "value": "a1914.dscz.akamai.net", "ttl": 21598 },
+    { "type": "A", "value": "23.55.58.153", "ttl": 19 },
+    { "type": "AAAA", "value": "2a02:26f0:4000::216:9232", "ttl": 19 },
+    { "type": "A", "value": "23.55.58.139", "ttl": 19 },
+    { "type": "AAAA", "value": "2a02:26f0:4000::216:9239", "ttl": 19 },
+    {
+      "type": "CNAME",
+      "value": "live-streaming.ruangguru.com.akamaized.net",
+      "ttl": 298
+    },
+    { "type": "CNAME", "value": "a1914.dscz.akamai.net", "ttl": 21599 }
+  ],
+  [
+    { "type": "A", "value": "151.101.2.49", "ttl": 29 },
+    { "type": "A", "value": "151.101.194.49", "ttl": 29 },
+    { "type": "CNAME", "value": "p2.shared.global.fastly.net", "ttl": 298 },
+    { "type": "A", "value": "151.101.130.49", "ttl": 29 },
+    { "type": "A", "value": "151.101.66.49", "ttl": 29 },
+    { "type": "CNAME", "value": "p2.shared.global.fastly.net", "ttl": 299 }
+  ],
+  [
+    {
+      "type": "CNAME",
+      "value": "2828691.group41.sites.hubspot.net",
+      "ttl": 300
+    },
+    { "type": "AAAA", "value": "2606:2c40::c73c:671c", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:2c40::c73c:67e4", "ttl": 300 },
+    { "type": "CNAME", "value": "group41.sites.hscoscdn40.net", "ttl": 120 },
+    { "type": "A", "value": "199.60.103.28", "ttl": 300 },
+    { "type": "A", "value": "199.60.103.228", "ttl": 300 }
+  ],
+  [
+    { "type": "A", "value": "104.18.2.2", "ttl": 299 },
+    { "type": "AAAA", "value": "2606:4700::6812:302", "ttl": 299 },
+    { "type": "A", "value": "104.18.3.2", "ttl": 299 },
+    { "type": "AAAA", "value": "2606:4700::6812:202", "ttl": 299 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:1::6813:856f", "ttl": 299 },
+    { "type": "A", "value": "104.19.133.111", "ttl": 299 },
+    { "type": "A", "value": "104.19.132.111", "ttl": 299 },
+    { "type": "AAAA", "value": "2606:4700:1::6813:846f", "ttl": 299 }
+  ],
+  [
+    {
+      "type": "TXT",
+      "value": "v=spf1 include:spf1.mailgun.org include:spf2.mailgun.org -all",
+      "ttl": 899
+    },
+    { "priority": 10, "type": "MX", "value": "mxa.mailgun.org", "ttl": 899 },
+    { "type": "NS", "value": "ns-1614.awsdns-09.co.uk", "ttl": 21599 },
+    { "priority": 10, "type": "MX", "value": "mxb.mailgun.org", "ttl": 899 },
+    { "type": "A", "value": "34.215.76.87", "ttl": 51 },
+    {
+      "rname": "awsdns-hostmaster.amazon.com",
+      "retry": 900,
+      "value": "ns-586.awsdns-09.net",
+      "minimum": 86400,
+      "refresh": 7200,
+      "expire": 1209600,
+      "ttl": 899,
+      "serial": 1,
+      "type": "SOA"
+    },
+    { "type": "A", "value": "52.13.239.134", "ttl": 51 },
+    { "type": "NS", "value": "ns-133.awsdns-16.com", "ttl": 21599 },
+    { "type": "CNAME", "value": "mailgun.org", "ttl": 299 },
+    { "type": "NS", "value": "ns-1482.awsdns-57.org", "ttl": 21599 },
+    {
+      "type": "TXT",
+      "value": "google-site-verification=FIGVOKZm6lQFDBJaiC2DdwvBy8TInunoGCt-1gnL4PA",
+      "ttl": 899
+    },
+    { "type": "NS", "value": "ns-586.awsdns-09.net", "ttl": 21599 }
+  ],
+  [
+    { "type": "A", "value": "104.19.141.56", "ttl": 299 },
+    { "type": "AAAA", "value": "2606:4700:1::6813:8b38", "ttl": 299 },
+    { "type": "AAAA", "value": "2606:4700:1::6813:8c38", "ttl": 299 },
+    { "type": "A", "value": "104.19.143.56", "ttl": 299 },
+    { "type": "A", "value": "104.19.139.56", "ttl": 299 },
+    { "type": "AAAA", "value": "2606:4700:1::6813:8f38", "ttl": 299 },
+    { "type": "A", "value": "104.19.142.56", "ttl": 299 },
+    { "type": "AAAA", "value": "2606:4700:1::6813:8d38", "ttl": 299 },
+    { "type": "AAAA", "value": "2606:4700:1::6813:8e38", "ttl": 299 },
+    { "type": "A", "value": "104.19.140.56", "ttl": 299 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700::6812:202", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700::6812:302", "ttl": 300 },
+    { "type": "A", "value": "104.18.3.2", "ttl": 300 },
+    { "type": "A", "value": "104.18.2.2", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700::6812:202", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700::6812:302", "ttl": 300 },
+    { "type": "A", "value": "104.18.3.2", "ttl": 300 },
+    { "type": "A", "value": "104.18.2.2", "ttl": 300 }
+  ],
+  [
+    {
+      "type": "CNAME",
+      "value": "2828691.group41.sites.hubspot.net",
+      "ttl": 300
+    },
+    { "type": "AAAA", "value": "2606:2c40::c73c:671c", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:2c40::c73c:67e4", "ttl": 300 },
+    { "type": "CNAME", "value": "group41.sites.hscoscdn40.net", "ttl": 120 },
+    { "type": "A", "value": "199.60.103.28", "ttl": 300 },
+    { "type": "A", "value": "199.60.103.228", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700::6812:202", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700::6812:302", "ttl": 300 },
+    { "type": "A", "value": "104.18.3.2", "ttl": 300 },
+    { "type": "A", "value": "104.18.2.2", "ttl": 300 }
+  ],
+  [
+    { "type": "A", "value": "104.18.2.2", "ttl": 299 },
+    { "type": "AAAA", "value": "2606:4700::6812:302", "ttl": 299 },
+    { "type": "A", "value": "104.18.3.2", "ttl": 299 },
+    { "type": "AAAA", "value": "2606:4700::6812:202", "ttl": 299 }
+  ],
+  [
+    {
+      "type": "CNAME",
+      "value": "2828691.group41.sites.hubspot.net",
+      "ttl": 300
+    },
+    { "type": "AAAA", "value": "2606:2c40::c73c:671c", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:2c40::c73c:67e4", "ttl": 300 },
+    { "type": "CNAME", "value": "group41.sites.hscoscdn40.net", "ttl": 120 },
+    { "type": "A", "value": "199.60.103.28", "ttl": 300 },
+    { "type": "A", "value": "199.60.103.228", "ttl": 300 }
+  ],
+  [
+    { "type": "A", "value": "104.19.141.56", "ttl": 299 },
+    { "type": "AAAA", "value": "2606:4700:1::6813:8b38", "ttl": 299 },
+    { "type": "AAAA", "value": "2606:4700:1::6813:8c38", "ttl": 299 },
+    { "type": "A", "value": "104.19.143.56", "ttl": 299 },
+    { "type": "A", "value": "104.19.139.56", "ttl": 299 },
+    { "type": "AAAA", "value": "2606:4700:1::6813:8f38", "ttl": 299 },
+    { "type": "A", "value": "104.19.142.56", "ttl": 299 },
+    { "type": "AAAA", "value": "2606:4700:1::6813:8d38", "ttl": 299 },
+    { "type": "AAAA", "value": "2606:4700:1::6813:8e38", "ttl": 299 },
+    { "type": "A", "value": "104.19.140.56", "ttl": 299 }
+  ],
+  [
+    {
+      "type": "CNAME",
+      "value": "2828691.group41.sites.hubspot.net",
+      "ttl": 300
+    },
+    { "type": "AAAA", "value": "2606:2c40::c73c:671c", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:2c40::c73c:67e4", "ttl": 300 },
+    { "type": "CNAME", "value": "group41.sites.hscoscdn40.net", "ttl": 120 },
+    { "type": "A", "value": "199.60.103.28", "ttl": 300 },
+    {
+      "type": "CNAME",
+      "value": "2828691g41.secure0167.hubspot.net",
+      "ttl": 300
+    },
+    { "type": "A", "value": "199.60.103.228", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700::6812:202", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700::6812:302", "ttl": 300 },
+    { "type": "A", "value": "104.18.3.2", "ttl": 300 },
+    { "type": "A", "value": "104.18.2.2", "ttl": 300 }
+  ],
+  [
+    {
+      "type": "CNAME",
+      "value": "2828691.group41.sites.hubspot.net",
+      "ttl": 300
+    },
+    { "type": "AAAA", "value": "2606:2c40::c73c:671c", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:2c40::c73c:67e4", "ttl": 300 },
+    {
+      "type": "TXT",
+      "value": "google-site-verification=Mea4JEYX7E1C6csm_4GkrJs8nZz-EjgRiX1hMm04X5U",
+      "ttl": 120
+    },
+    { "type": "CNAME", "value": "group41.sites.hscoscdn40.net", "ttl": 120 },
+    { "type": "A", "value": "199.60.103.28", "ttl": 300 },
+    { "type": "A", "value": "199.60.103.228", "ttl": 300 }
+  ],
+  [
+    { "type": "A", "value": "104.31.11.172", "ttl": 299 },
+    { "type": "AAAA", "value": "2606:4700:3038::681f:bac", "ttl": 299 },
+    { "type": "A", "value": "104.31.10.172", "ttl": 299 },
+    { "type": "AAAA", "value": "2606:4700:3038::681f:aac", "ttl": 299 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700::6812:202", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700::6812:302", "ttl": 300 },
+    { "type": "A", "value": "104.18.3.2", "ttl": 300 },
+    { "type": "A", "value": "104.18.2.2", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700::6812:202", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700::6812:302", "ttl": 300 },
+    { "type": "A", "value": "104.18.3.2", "ttl": 300 },
+    { "type": "A", "value": "104.18.2.2", "ttl": 300 }
+  ],
+  [
+    { "type": "A", "value": "47.246.23.231", "ttl": 60 },
+    { "type": "A", "value": "47.246.23.233", "ttl": 60 },
+    { "type": "A", "value": "47.246.23.234", "ttl": 60 },
+    {
+      "type": "CNAME",
+      "value": "repayment-cdn.ruangguru.com.w.cdngslb.com",
+      "ttl": 300
+    },
+    { "type": "A", "value": "47.246.23.232", "ttl": 60 },
+    { "type": "A", "value": "47.246.23.228", "ttl": 60 },
+    { "type": "A", "value": "47.246.23.227", "ttl": 60 },
+    { "type": "A", "value": "47.246.23.229", "ttl": 60 },
+    { "type": "A", "value": "47.246.23.230", "ttl": 60 }
+  ],
+  [{ "type": "A", "value": "34.104.34.180", "ttl": 300 }],
+  [
+    {
+      "type": "CNAME",
+      "value": "2828691.group41.sites.hubspot.net",
+      "ttl": 300
+    },
+    { "type": "AAAA", "value": "2606:2c40::c73c:671c", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:2c40::c73c:67e4", "ttl": 300 },
+    { "type": "CNAME", "value": "group41.sites.hscoscdn40.net", "ttl": 120 },
+    { "type": "A", "value": "199.60.103.28", "ttl": 300 },
+    { "type": "A", "value": "199.60.103.228", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700::6812:202", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700::6812:302", "ttl": 300 },
+    { "type": "A", "value": "104.18.3.2", "ttl": 300 },
+    { "type": "A", "value": "104.18.2.2", "ttl": 300 }
+  ],
+  [
+    {
+      "type": "CNAME",
+      "value": "2828691.group41.sites.hubspot.net",
+      "ttl": 300
+    },
+    { "type": "AAAA", "value": "2606:2c40::c73c:671c", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:2c40::c73c:67e4", "ttl": 300 },
+    { "type": "CNAME", "value": "group41.sites.hscoscdn40.net", "ttl": 120 },
+    { "type": "A", "value": "199.60.103.28", "ttl": 300 },
+    { "type": "A", "value": "199.60.103.228", "ttl": 300 }
+  ],
+  [
+    { "type": "A", "value": "151.101.194.49", "ttl": 29 },
+    { "type": "A", "value": "151.101.66.49", "ttl": 29 },
+    { "type": "CNAME", "value": "p2.shared.global.fastly.net", "ttl": 299 },
+    { "type": "A", "value": "151.101.2.49", "ttl": 29 },
+    { "type": "A", "value": "151.101.130.49", "ttl": 29 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:1::6813:856f", "ttl": 299 },
+    { "type": "A", "value": "104.19.133.111", "ttl": 299 },
+    { "type": "A", "value": "104.19.132.111", "ttl": 299 },
+    { "type": "AAAA", "value": "2606:4700:1::6813:846f", "ttl": 299 }
+  ],
+  [
+    { "type": "A", "value": "151.101.2.49", "ttl": 29 },
+    { "type": "A", "value": "151.101.194.49", "ttl": 29 },
+    { "type": "CNAME", "value": "p2.shared.global.fastly.net", "ttl": 298 },
+    { "type": "A", "value": "151.101.130.49", "ttl": 29 },
+    { "type": "A", "value": "151.101.66.49", "ttl": 29 },
+    { "type": "CNAME", "value": "p2.shared.global.fastly.net", "ttl": 299 }
+  ],
+  [
+    {
+      "type": "CNAME",
+      "value": "rubel-video-ruangguru.com.splitter-eip.akadns.net",
+      "ttl": 21599
+    },
+    { "type": "AAAA", "value": "2600:1480:2000:a0::", "ttl": 30 },
+    {
+      "type": "CNAME",
+      "value": "rubel-video-ruangguru.com.splitter-eip.akadns.net",
+      "ttl": 21600
+    },
+    {
+      "type": "CNAME",
+      "value": "rubel-video-ruangguru.com.eip.akadns.net",
+      "ttl": 60
+    },
+    {
+      "type": "CNAME",
+      "value": "eip-tata.rubel-video-ruangguru.com.akahost.net",
+      "ttl": 59
+    },
+    {
+      "type": "CNAME",
+      "value": "rubel-video-ruangguru.com.akamaized.net",
+      "ttl": 300
+    },
+    {
+      "type": "CNAME",
+      "value": "rubel-video-ruangguru.com.eip.akadns.net",
+      "ttl": 59
+    },
+    {
+      "type": "CNAME",
+      "value": "rubel-video-ruangguru.com.akamaized.net",
+      "ttl": 298
+    },
+    {
+      "type": "CNAME",
+      "value": "rubel-video-ruangguru.com.eip.akadns.net",
+      "ttl": 58
+    },
+    {
+      "type": "CNAME",
+      "value": "rubel-video-ruangguru.com.akamaized.net",
+      "ttl": 299
+    },
+    {
+      "type": "CNAME",
+      "value": "eip-tata.rubel-video-ruangguru.com.akahost.net",
+      "ttl": 60
+    },
+    {
+      "type": "CNAME",
+      "value": "rubel-video-ruangguru.com.splitter-eip.akadns.net",
+      "ttl": 21598
+    },
+    { "type": "A", "value": "184.31.3.63", "ttl": 30 }
+  ],
+  [
+    {
+      "type": "CNAME",
+      "value": "2828691.group41.sites.hubspot.net",
+      "ttl": 300
+    },
+    { "type": "AAAA", "value": "2606:2c40::c73c:671c", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:2c40::c73c:67e4", "ttl": 300 },
+    { "type": "CNAME", "value": "group41.sites.hscoscdn40.net", "ttl": 120 },
+    {
+      "type": "CNAME",
+      "value": "2828691g41.secure0136.hubspot.net",
+      "ttl": 300
+    },
+    { "type": "A", "value": "199.60.103.28", "ttl": 300 },
+    { "type": "A", "value": "199.60.103.228", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700::6812:202", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700::6812:302", "ttl": 300 },
+    { "type": "A", "value": "104.18.3.2", "ttl": 300 },
+    { "type": "A", "value": "104.18.2.2", "ttl": 300 }
+  ],
+  [
+    {
+      "type": "CNAME",
+      "value": "2828691.group41.sites.hubspot.net",
+      "ttl": 300
+    },
+    { "type": "AAAA", "value": "2606:2c40::c73c:671c", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:2c40::c73c:67e4", "ttl": 300 },
+    { "type": "CNAME", "value": "group41.sites.hscoscdn40.net", "ttl": 120 },
+    { "type": "A", "value": "199.60.103.28", "ttl": 300 },
+    { "type": "A", "value": "199.60.103.228", "ttl": 300 }
+  ]
+]

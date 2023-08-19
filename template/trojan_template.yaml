@@ -1,0 +1,48 @@
+  - name: '{name} | server trojan'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: '{bug}'
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: '{name} | grpc server'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: '{bug}'
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+  - name: '{name} | server trojan1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: '{bug}'
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: '{name} | grpc server1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: '{bug}'
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true

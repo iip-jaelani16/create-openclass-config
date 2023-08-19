@@ -1,0 +1,3900 @@
+proxies:
+  - name: 'sshocean-singavmess-uhuy.dev-suffocated.my.id-non-ws-0 | bug->bug->server'
+    server: uhuy.dev-suffocated.my.id #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: uhuy.dev-suffocated.my.id #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 2
+  - name: 'sshocean-singavmess-uhuy.dev-suffocated.my.id-non-ws-0 | bug->server->bug'
+    server: uhuy.dev-suffocated.my.id #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: uhuy.dev-suffocated.my.id #override
+    udp: true
+  #------------------ 3
+  - name: 'sshocean-singavmess-uhuy.dev-suffocated.my.id-non-ws-0 | bug->server->server'
+    server: uhuy.dev-suffocated.my.id #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 4
+  - name: 'sshocean-singavmess-uhuy.dev-suffocated.my.id-non-ws-0 | server->bug->bug'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: uhuy.dev-suffocated.my.id #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: uhuy.dev-suffocated.my.id #override
+    udp: true
+  #------------------ 5
+  - name: 'sshocean-singavmess-uhuy.dev-suffocated.my.id-non-ws-0 | server->bug->server'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: uhuy.dev-suffocated.my.id #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 6
+  - name: 'sshocean-singavmess-uhuy.dev-suffocated.my.id-non-ws-0 | server->server->bug'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: uhuy.dev-suffocated.my.id #override
+    udp: true
+
+  #------------------ 1
+  - name: 'sshocean-singavmess-uhuy.dev-suffocated.my.id-non-ws-0 | bug->bug->server 2'
+    server: uhuy.dev-suffocated.my.id #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: uhuy.dev-suffocated.my.id #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 2
+  - name: 'sshocean-singavmess-uhuy.dev-suffocated.my.id-non-ws-0 | bug->server->bug 2'
+    server: uhuy.dev-suffocated.my.id #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: uhuy.dev-suffocated.my.id #override
+    udp: true
+  #------------------ 3
+  - name: 'sshocean-singavmess-uhuy.dev-suffocated.my.id-non-ws-0 | bug->server->server 2'
+    server: uhuy.dev-suffocated.my.id #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 4
+  - name: 'sshocean-singavmess-uhuy.dev-suffocated.my.id-non-ws-0 | server->bug->bug 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: uhuy.dev-suffocated.my.id #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: uhuy.dev-suffocated.my.id #override
+    udp: true
+  #------------------ 5
+  - name: 'sshocean-singavmess-uhuy.dev-suffocated.my.id-non-ws-0 | server->bug->server 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: uhuy.dev-suffocated.my.id #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 6
+  - name: 'sshocean-singavmess-uhuy.dev-suffocated.my.id-non-ws-0 | server->server->bug 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: uhuy.dev-suffocated.my.id #override
+    udp: true
+
+  - name: 'sshocean-singavmess-uhuy.dev-suffocated.my.id-ws-1 | bug->bug->server'
+    server: uhuy.dev-suffocated.my.id #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: uhuy.dev-suffocated.my.id #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 2
+  - name: 'sshocean-singavmess-uhuy.dev-suffocated.my.id-ws-1 | bug->server->bug'
+    server: uhuy.dev-suffocated.my.id #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: uhuy.dev-suffocated.my.id #override
+    udp: true
+  #------------------ 3
+  - name: 'sshocean-singavmess-uhuy.dev-suffocated.my.id-ws-1 | bug->server->server'
+    server: uhuy.dev-suffocated.my.id #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 4
+  - name: 'sshocean-singavmess-uhuy.dev-suffocated.my.id-ws-1 | server->bug->bug'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: uhuy.dev-suffocated.my.id #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: uhuy.dev-suffocated.my.id #override
+    udp: true
+  #------------------ 5
+  - name: 'sshocean-singavmess-uhuy.dev-suffocated.my.id-ws-1 | server->bug->server'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: uhuy.dev-suffocated.my.id #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 6
+  - name: 'sshocean-singavmess-uhuy.dev-suffocated.my.id-ws-1 | server->server->bug'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: uhuy.dev-suffocated.my.id #override
+    udp: true
+
+  #------------------ 1
+  - name: 'sshocean-singavmess-uhuy.dev-suffocated.my.id-ws-1 | bug->bug->server 2'
+    server: uhuy.dev-suffocated.my.id #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: uhuy.dev-suffocated.my.id #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 2
+  - name: 'sshocean-singavmess-uhuy.dev-suffocated.my.id-ws-1 | bug->server->bug 2'
+    server: uhuy.dev-suffocated.my.id #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: uhuy.dev-suffocated.my.id #override
+    udp: true
+  #------------------ 3
+  - name: 'sshocean-singavmess-uhuy.dev-suffocated.my.id-ws-1 | bug->server->server 2'
+    server: uhuy.dev-suffocated.my.id #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 4
+  - name: 'sshocean-singavmess-uhuy.dev-suffocated.my.id-ws-1 | server->bug->bug 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: uhuy.dev-suffocated.my.id #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: uhuy.dev-suffocated.my.id #override
+    udp: true
+  #------------------ 5
+  - name: 'sshocean-singavmess-uhuy.dev-suffocated.my.id-ws-1 | server->bug->server 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: uhuy.dev-suffocated.my.id #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 6
+  - name: 'sshocean-singavmess-uhuy.dev-suffocated.my.id-ws-1 | server->server->bug 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: uhuy.dev-suffocated.my.id #override
+    udp: true
+
+  - name: 'sgt2.sshocean.net-uhuy.dev-suffocated.my.id-2 | server trojan'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: uhuy.dev-suffocated.my.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-uhuy.dev-suffocated.my.id-2 | grpc server'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: uhuy.dev-suffocated.my.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+  - name: 'sgt2.sshocean.net-uhuy.dev-suffocated.my.id-2 | server trojan1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: uhuy.dev-suffocated.my.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-uhuy.dev-suffocated.my.id-2 | grpc server1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: uhuy.dev-suffocated.my.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+
+  - name: 'sgt2.sshocean.net-uhuy.dev-suffocated.my.id-3 | server trojan'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: uhuy.dev-suffocated.my.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-uhuy.dev-suffocated.my.id-3 | grpc server'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: uhuy.dev-suffocated.my.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+  - name: 'sgt2.sshocean.net-uhuy.dev-suffocated.my.id-3 | server trojan1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: uhuy.dev-suffocated.my.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-uhuy.dev-suffocated.my.id-3 | grpc server1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: uhuy.dev-suffocated.my.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+
+  - name: 'sgt2.sshocean.net-uhuy.dev-suffocated.my.id-4 | server trojan'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: uhuy.dev-suffocated.my.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-uhuy.dev-suffocated.my.id-4 | grpc server'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: uhuy.dev-suffocated.my.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+  - name: 'sgt2.sshocean.net-uhuy.dev-suffocated.my.id-4 | server trojan1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: uhuy.dev-suffocated.my.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-uhuy.dev-suffocated.my.id-4 | grpc server1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: uhuy.dev-suffocated.my.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+
+  - name: 'sshocean-singavmess-104.26.7.171-non-ws-0 | bug->bug->server'
+    server: 104.26.7.171 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 104.26.7.171 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 2
+  - name: 'sshocean-singavmess-104.26.7.171-non-ws-0 | bug->server->bug'
+    server: 104.26.7.171 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.26.7.171 #override
+    udp: true
+  #------------------ 3
+  - name: 'sshocean-singavmess-104.26.7.171-non-ws-0 | bug->server->server'
+    server: 104.26.7.171 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 4
+  - name: 'sshocean-singavmess-104.26.7.171-non-ws-0 | server->bug->bug'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 104.26.7.171 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.26.7.171 #override
+    udp: true
+  #------------------ 5
+  - name: 'sshocean-singavmess-104.26.7.171-non-ws-0 | server->bug->server'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 104.26.7.171 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 6
+  - name: 'sshocean-singavmess-104.26.7.171-non-ws-0 | server->server->bug'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.26.7.171 #override
+    udp: true
+
+  #------------------ 1
+  - name: 'sshocean-singavmess-104.26.7.171-non-ws-0 | bug->bug->server 2'
+    server: 104.26.7.171 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 104.26.7.171 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 2
+  - name: 'sshocean-singavmess-104.26.7.171-non-ws-0 | bug->server->bug 2'
+    server: 104.26.7.171 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.26.7.171 #override
+    udp: true
+  #------------------ 3
+  - name: 'sshocean-singavmess-104.26.7.171-non-ws-0 | bug->server->server 2'
+    server: 104.26.7.171 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 4
+  - name: 'sshocean-singavmess-104.26.7.171-non-ws-0 | server->bug->bug 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 104.26.7.171 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.26.7.171 #override
+    udp: true
+  #------------------ 5
+  - name: 'sshocean-singavmess-104.26.7.171-non-ws-0 | server->bug->server 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 104.26.7.171 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 6
+  - name: 'sshocean-singavmess-104.26.7.171-non-ws-0 | server->server->bug 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.26.7.171 #override
+    udp: true
+
+  - name: 'sshocean-singavmess-104.26.7.171-ws-1 | bug->bug->server'
+    server: 104.26.7.171 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.26.7.171 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 2
+  - name: 'sshocean-singavmess-104.26.7.171-ws-1 | bug->server->bug'
+    server: 104.26.7.171 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.26.7.171 #override
+    udp: true
+  #------------------ 3
+  - name: 'sshocean-singavmess-104.26.7.171-ws-1 | bug->server->server'
+    server: 104.26.7.171 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 4
+  - name: 'sshocean-singavmess-104.26.7.171-ws-1 | server->bug->bug'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.26.7.171 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.26.7.171 #override
+    udp: true
+  #------------------ 5
+  - name: 'sshocean-singavmess-104.26.7.171-ws-1 | server->bug->server'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.26.7.171 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 6
+  - name: 'sshocean-singavmess-104.26.7.171-ws-1 | server->server->bug'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.26.7.171 #override
+    udp: true
+
+  #------------------ 1
+  - name: 'sshocean-singavmess-104.26.7.171-ws-1 | bug->bug->server 2'
+    server: 104.26.7.171 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.26.7.171 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 2
+  - name: 'sshocean-singavmess-104.26.7.171-ws-1 | bug->server->bug 2'
+    server: 104.26.7.171 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.26.7.171 #override
+    udp: true
+  #------------------ 3
+  - name: 'sshocean-singavmess-104.26.7.171-ws-1 | bug->server->server 2'
+    server: 104.26.7.171 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 4
+  - name: 'sshocean-singavmess-104.26.7.171-ws-1 | server->bug->bug 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.26.7.171 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.26.7.171 #override
+    udp: true
+  #------------------ 5
+  - name: 'sshocean-singavmess-104.26.7.171-ws-1 | server->bug->server 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.26.7.171 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 6
+  - name: 'sshocean-singavmess-104.26.7.171-ws-1 | server->server->bug 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.26.7.171 #override
+    udp: true
+
+  - name: 'sgt2.sshocean.net-104.26.7.171-2 | server trojan'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.26.7.171
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-104.26.7.171-2 | grpc server'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.26.7.171
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+  - name: 'sgt2.sshocean.net-104.26.7.171-2 | server trojan1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.26.7.171
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-104.26.7.171-2 | grpc server1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.26.7.171
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+
+  - name: 'sgt2.sshocean.net-104.26.7.171-3 | server trojan'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.26.7.171
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-104.26.7.171-3 | grpc server'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.26.7.171
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+  - name: 'sgt2.sshocean.net-104.26.7.171-3 | server trojan1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.26.7.171
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-104.26.7.171-3 | grpc server1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.26.7.171
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+
+  - name: 'sgt2.sshocean.net-104.26.7.171-4 | server trojan'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.26.7.171
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-104.26.7.171-4 | grpc server'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.26.7.171
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+  - name: 'sgt2.sshocean.net-104.26.7.171-4 | server trojan1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.26.7.171
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-104.26.7.171-4 | grpc server1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.26.7.171
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+
+  - name: 'sshocean-singavmess-104.16.51.111-non-ws-0 | bug->bug->server'
+    server: 104.16.51.111 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 104.16.51.111 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 2
+  - name: 'sshocean-singavmess-104.16.51.111-non-ws-0 | bug->server->bug'
+    server: 104.16.51.111 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.16.51.111 #override
+    udp: true
+  #------------------ 3
+  - name: 'sshocean-singavmess-104.16.51.111-non-ws-0 | bug->server->server'
+    server: 104.16.51.111 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 4
+  - name: 'sshocean-singavmess-104.16.51.111-non-ws-0 | server->bug->bug'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 104.16.51.111 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.16.51.111 #override
+    udp: true
+  #------------------ 5
+  - name: 'sshocean-singavmess-104.16.51.111-non-ws-0 | server->bug->server'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 104.16.51.111 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 6
+  - name: 'sshocean-singavmess-104.16.51.111-non-ws-0 | server->server->bug'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.16.51.111 #override
+    udp: true
+
+  #------------------ 1
+  - name: 'sshocean-singavmess-104.16.51.111-non-ws-0 | bug->bug->server 2'
+    server: 104.16.51.111 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 104.16.51.111 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 2
+  - name: 'sshocean-singavmess-104.16.51.111-non-ws-0 | bug->server->bug 2'
+    server: 104.16.51.111 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.16.51.111 #override
+    udp: true
+  #------------------ 3
+  - name: 'sshocean-singavmess-104.16.51.111-non-ws-0 | bug->server->server 2'
+    server: 104.16.51.111 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 4
+  - name: 'sshocean-singavmess-104.16.51.111-non-ws-0 | server->bug->bug 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 104.16.51.111 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.16.51.111 #override
+    udp: true
+  #------------------ 5
+  - name: 'sshocean-singavmess-104.16.51.111-non-ws-0 | server->bug->server 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 104.16.51.111 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 6
+  - name: 'sshocean-singavmess-104.16.51.111-non-ws-0 | server->server->bug 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.16.51.111 #override
+    udp: true
+
+  - name: 'sshocean-singavmess-104.16.51.111-ws-1 | bug->bug->server'
+    server: 104.16.51.111 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.16.51.111 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 2
+  - name: 'sshocean-singavmess-104.16.51.111-ws-1 | bug->server->bug'
+    server: 104.16.51.111 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.16.51.111 #override
+    udp: true
+  #------------------ 3
+  - name: 'sshocean-singavmess-104.16.51.111-ws-1 | bug->server->server'
+    server: 104.16.51.111 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 4
+  - name: 'sshocean-singavmess-104.16.51.111-ws-1 | server->bug->bug'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.16.51.111 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.16.51.111 #override
+    udp: true
+  #------------------ 5
+  - name: 'sshocean-singavmess-104.16.51.111-ws-1 | server->bug->server'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.16.51.111 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 6
+  - name: 'sshocean-singavmess-104.16.51.111-ws-1 | server->server->bug'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.16.51.111 #override
+    udp: true
+
+  #------------------ 1
+  - name: 'sshocean-singavmess-104.16.51.111-ws-1 | bug->bug->server 2'
+    server: 104.16.51.111 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.16.51.111 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 2
+  - name: 'sshocean-singavmess-104.16.51.111-ws-1 | bug->server->bug 2'
+    server: 104.16.51.111 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.16.51.111 #override
+    udp: true
+  #------------------ 3
+  - name: 'sshocean-singavmess-104.16.51.111-ws-1 | bug->server->server 2'
+    server: 104.16.51.111 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 4
+  - name: 'sshocean-singavmess-104.16.51.111-ws-1 | server->bug->bug 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.16.51.111 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.16.51.111 #override
+    udp: true
+  #------------------ 5
+  - name: 'sshocean-singavmess-104.16.51.111-ws-1 | server->bug->server 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.16.51.111 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 6
+  - name: 'sshocean-singavmess-104.16.51.111-ws-1 | server->server->bug 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.16.51.111 #override
+    udp: true
+
+  - name: 'sgt2.sshocean.net-104.16.51.111-2 | server trojan'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.16.51.111
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-104.16.51.111-2 | grpc server'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.16.51.111
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+  - name: 'sgt2.sshocean.net-104.16.51.111-2 | server trojan1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.16.51.111
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-104.16.51.111-2 | grpc server1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.16.51.111
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+
+  - name: 'sgt2.sshocean.net-104.16.51.111-3 | server trojan'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.16.51.111
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-104.16.51.111-3 | grpc server'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.16.51.111
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+  - name: 'sgt2.sshocean.net-104.16.51.111-3 | server trojan1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.16.51.111
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-104.16.51.111-3 | grpc server1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.16.51.111
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+
+  - name: 'sgt2.sshocean.net-104.16.51.111-4 | server trojan'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.16.51.111
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-104.16.51.111-4 | grpc server'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.16.51.111
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+  - name: 'sgt2.sshocean.net-104.16.51.111-4 | server trojan1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.16.51.111
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-104.16.51.111-4 | grpc server1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.16.51.111
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+
+  - name: 'sshocean-singavmess-104.22.24.131-non-ws-0 | bug->bug->server'
+    server: 104.22.24.131 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 104.22.24.131 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 2
+  - name: 'sshocean-singavmess-104.22.24.131-non-ws-0 | bug->server->bug'
+    server: 104.22.24.131 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.22.24.131 #override
+    udp: true
+  #------------------ 3
+  - name: 'sshocean-singavmess-104.22.24.131-non-ws-0 | bug->server->server'
+    server: 104.22.24.131 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 4
+  - name: 'sshocean-singavmess-104.22.24.131-non-ws-0 | server->bug->bug'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 104.22.24.131 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.22.24.131 #override
+    udp: true
+  #------------------ 5
+  - name: 'sshocean-singavmess-104.22.24.131-non-ws-0 | server->bug->server'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 104.22.24.131 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 6
+  - name: 'sshocean-singavmess-104.22.24.131-non-ws-0 | server->server->bug'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.22.24.131 #override
+    udp: true
+
+  #------------------ 1
+  - name: 'sshocean-singavmess-104.22.24.131-non-ws-0 | bug->bug->server 2'
+    server: 104.22.24.131 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 104.22.24.131 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 2
+  - name: 'sshocean-singavmess-104.22.24.131-non-ws-0 | bug->server->bug 2'
+    server: 104.22.24.131 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.22.24.131 #override
+    udp: true
+  #------------------ 3
+  - name: 'sshocean-singavmess-104.22.24.131-non-ws-0 | bug->server->server 2'
+    server: 104.22.24.131 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 4
+  - name: 'sshocean-singavmess-104.22.24.131-non-ws-0 | server->bug->bug 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 104.22.24.131 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.22.24.131 #override
+    udp: true
+  #------------------ 5
+  - name: 'sshocean-singavmess-104.22.24.131-non-ws-0 | server->bug->server 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 104.22.24.131 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 6
+  - name: 'sshocean-singavmess-104.22.24.131-non-ws-0 | server->server->bug 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.22.24.131 #override
+    udp: true
+
+  - name: 'sshocean-singavmess-104.22.24.131-ws-1 | bug->bug->server'
+    server: 104.22.24.131 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.22.24.131 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 2
+  - name: 'sshocean-singavmess-104.22.24.131-ws-1 | bug->server->bug'
+    server: 104.22.24.131 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.22.24.131 #override
+    udp: true
+  #------------------ 3
+  - name: 'sshocean-singavmess-104.22.24.131-ws-1 | bug->server->server'
+    server: 104.22.24.131 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 4
+  - name: 'sshocean-singavmess-104.22.24.131-ws-1 | server->bug->bug'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.22.24.131 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.22.24.131 #override
+    udp: true
+  #------------------ 5
+  - name: 'sshocean-singavmess-104.22.24.131-ws-1 | server->bug->server'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.22.24.131 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 6
+  - name: 'sshocean-singavmess-104.22.24.131-ws-1 | server->server->bug'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.22.24.131 #override
+    udp: true
+
+  #------------------ 1
+  - name: 'sshocean-singavmess-104.22.24.131-ws-1 | bug->bug->server 2'
+    server: 104.22.24.131 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.22.24.131 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 2
+  - name: 'sshocean-singavmess-104.22.24.131-ws-1 | bug->server->bug 2'
+    server: 104.22.24.131 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.22.24.131 #override
+    udp: true
+  #------------------ 3
+  - name: 'sshocean-singavmess-104.22.24.131-ws-1 | bug->server->server 2'
+    server: 104.22.24.131 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 4
+  - name: 'sshocean-singavmess-104.22.24.131-ws-1 | server->bug->bug 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.22.24.131 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.22.24.131 #override
+    udp: true
+  #------------------ 5
+  - name: 'sshocean-singavmess-104.22.24.131-ws-1 | server->bug->server 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.22.24.131 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 6
+  - name: 'sshocean-singavmess-104.22.24.131-ws-1 | server->server->bug 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.22.24.131 #override
+    udp: true
+
+  - name: 'sgt2.sshocean.net-104.22.24.131-2 | server trojan'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.22.24.131
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-104.22.24.131-2 | grpc server'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.22.24.131
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+  - name: 'sgt2.sshocean.net-104.22.24.131-2 | server trojan1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.22.24.131
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-104.22.24.131-2 | grpc server1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.22.24.131
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+
+  - name: 'sgt2.sshocean.net-104.22.24.131-3 | server trojan'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.22.24.131
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-104.22.24.131-3 | grpc server'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.22.24.131
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+  - name: 'sgt2.sshocean.net-104.22.24.131-3 | server trojan1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.22.24.131
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-104.22.24.131-3 | grpc server1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.22.24.131
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+
+  - name: 'sgt2.sshocean.net-104.22.24.131-4 | server trojan'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.22.24.131
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-104.22.24.131-4 | grpc server'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.22.24.131
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+  - name: 'sgt2.sshocean.net-104.22.24.131-4 | server trojan1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.22.24.131
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-104.22.24.131-4 | grpc server1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.22.24.131
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+
+  - name: 'sshocean-singavmess-104.17.2.81-non-ws-0 | bug->bug->server'
+    server: 104.17.2.81 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 104.17.2.81 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 2
+  - name: 'sshocean-singavmess-104.17.2.81-non-ws-0 | bug->server->bug'
+    server: 104.17.2.81 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.17.2.81 #override
+    udp: true
+  #------------------ 3
+  - name: 'sshocean-singavmess-104.17.2.81-non-ws-0 | bug->server->server'
+    server: 104.17.2.81 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 4
+  - name: 'sshocean-singavmess-104.17.2.81-non-ws-0 | server->bug->bug'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 104.17.2.81 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.17.2.81 #override
+    udp: true
+  #------------------ 5
+  - name: 'sshocean-singavmess-104.17.2.81-non-ws-0 | server->bug->server'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 104.17.2.81 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 6
+  - name: 'sshocean-singavmess-104.17.2.81-non-ws-0 | server->server->bug'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.17.2.81 #override
+    udp: true
+
+  #------------------ 1
+  - name: 'sshocean-singavmess-104.17.2.81-non-ws-0 | bug->bug->server 2'
+    server: 104.17.2.81 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 104.17.2.81 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 2
+  - name: 'sshocean-singavmess-104.17.2.81-non-ws-0 | bug->server->bug 2'
+    server: 104.17.2.81 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.17.2.81 #override
+    udp: true
+  #------------------ 3
+  - name: 'sshocean-singavmess-104.17.2.81-non-ws-0 | bug->server->server 2'
+    server: 104.17.2.81 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 4
+  - name: 'sshocean-singavmess-104.17.2.81-non-ws-0 | server->bug->bug 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 104.17.2.81 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.17.2.81 #override
+    udp: true
+  #------------------ 5
+  - name: 'sshocean-singavmess-104.17.2.81-non-ws-0 | server->bug->server 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 104.17.2.81 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 6
+  - name: 'sshocean-singavmess-104.17.2.81-non-ws-0 | server->server->bug 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.17.2.81 #override
+    udp: true
+
+  - name: 'sshocean-singavmess-104.17.2.81-ws-1 | bug->bug->server'
+    server: 104.17.2.81 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.17.2.81 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 2
+  - name: 'sshocean-singavmess-104.17.2.81-ws-1 | bug->server->bug'
+    server: 104.17.2.81 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.17.2.81 #override
+    udp: true
+  #------------------ 3
+  - name: 'sshocean-singavmess-104.17.2.81-ws-1 | bug->server->server'
+    server: 104.17.2.81 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 4
+  - name: 'sshocean-singavmess-104.17.2.81-ws-1 | server->bug->bug'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.17.2.81 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.17.2.81 #override
+    udp: true
+  #------------------ 5
+  - name: 'sshocean-singavmess-104.17.2.81-ws-1 | server->bug->server'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.17.2.81 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 6
+  - name: 'sshocean-singavmess-104.17.2.81-ws-1 | server->server->bug'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.17.2.81 #override
+    udp: true
+
+  #------------------ 1
+  - name: 'sshocean-singavmess-104.17.2.81-ws-1 | bug->bug->server 2'
+    server: 104.17.2.81 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.17.2.81 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 2
+  - name: 'sshocean-singavmess-104.17.2.81-ws-1 | bug->server->bug 2'
+    server: 104.17.2.81 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.17.2.81 #override
+    udp: true
+  #------------------ 3
+  - name: 'sshocean-singavmess-104.17.2.81-ws-1 | bug->server->server 2'
+    server: 104.17.2.81 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 4
+  - name: 'sshocean-singavmess-104.17.2.81-ws-1 | server->bug->bug 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.17.2.81 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.17.2.81 #override
+    udp: true
+  #------------------ 5
+  - name: 'sshocean-singavmess-104.17.2.81-ws-1 | server->bug->server 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.17.2.81 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 6
+  - name: 'sshocean-singavmess-104.17.2.81-ws-1 | server->server->bug 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.17.2.81 #override
+    udp: true
+
+  - name: 'sgt2.sshocean.net-104.17.2.81-2 | server trojan'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.17.2.81
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-104.17.2.81-2 | grpc server'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.17.2.81
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+  - name: 'sgt2.sshocean.net-104.17.2.81-2 | server trojan1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.17.2.81
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-104.17.2.81-2 | grpc server1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.17.2.81
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+
+  - name: 'sgt2.sshocean.net-104.17.2.81-3 | server trojan'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.17.2.81
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-104.17.2.81-3 | grpc server'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.17.2.81
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+  - name: 'sgt2.sshocean.net-104.17.2.81-3 | server trojan1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.17.2.81
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-104.17.2.81-3 | grpc server1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.17.2.81
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+
+  - name: 'sgt2.sshocean.net-104.17.2.81-4 | server trojan'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.17.2.81
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-104.17.2.81-4 | grpc server'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.17.2.81
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+  - name: 'sgt2.sshocean.net-104.17.2.81-4 | server trojan1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.17.2.81
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-104.17.2.81-4 | grpc server1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.17.2.81
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+
+  - name: 'sshocean-singavmess-104.18.2.2-non-ws-0 | bug->bug->server'
+    server: 104.18.2.2 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 104.18.2.2 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 2
+  - name: 'sshocean-singavmess-104.18.2.2-non-ws-0 | bug->server->bug'
+    server: 104.18.2.2 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.18.2.2 #override
+    udp: true
+  #------------------ 3
+  - name: 'sshocean-singavmess-104.18.2.2-non-ws-0 | bug->server->server'
+    server: 104.18.2.2 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 4
+  - name: 'sshocean-singavmess-104.18.2.2-non-ws-0 | server->bug->bug'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 104.18.2.2 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.18.2.2 #override
+    udp: true
+  #------------------ 5
+  - name: 'sshocean-singavmess-104.18.2.2-non-ws-0 | server->bug->server'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 104.18.2.2 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 6
+  - name: 'sshocean-singavmess-104.18.2.2-non-ws-0 | server->server->bug'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.18.2.2 #override
+    udp: true
+
+  #------------------ 1
+  - name: 'sshocean-singavmess-104.18.2.2-non-ws-0 | bug->bug->server 2'
+    server: 104.18.2.2 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 104.18.2.2 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 2
+  - name: 'sshocean-singavmess-104.18.2.2-non-ws-0 | bug->server->bug 2'
+    server: 104.18.2.2 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.18.2.2 #override
+    udp: true
+  #------------------ 3
+  - name: 'sshocean-singavmess-104.18.2.2-non-ws-0 | bug->server->server 2'
+    server: 104.18.2.2 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 4
+  - name: 'sshocean-singavmess-104.18.2.2-non-ws-0 | server->bug->bug 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 104.18.2.2 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.18.2.2 #override
+    udp: true
+  #------------------ 5
+  - name: 'sshocean-singavmess-104.18.2.2-non-ws-0 | server->bug->server 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 104.18.2.2 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 6
+  - name: 'sshocean-singavmess-104.18.2.2-non-ws-0 | server->server->bug 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.18.2.2 #override
+    udp: true
+
+  - name: 'sshocean-singavmess-104.18.2.2-ws-1 | bug->bug->server'
+    server: 104.18.2.2 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.18.2.2 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 2
+  - name: 'sshocean-singavmess-104.18.2.2-ws-1 | bug->server->bug'
+    server: 104.18.2.2 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.18.2.2 #override
+    udp: true
+  #------------------ 3
+  - name: 'sshocean-singavmess-104.18.2.2-ws-1 | bug->server->server'
+    server: 104.18.2.2 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 4
+  - name: 'sshocean-singavmess-104.18.2.2-ws-1 | server->bug->bug'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.18.2.2 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.18.2.2 #override
+    udp: true
+  #------------------ 5
+  - name: 'sshocean-singavmess-104.18.2.2-ws-1 | server->bug->server'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.18.2.2 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 6
+  - name: 'sshocean-singavmess-104.18.2.2-ws-1 | server->server->bug'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.18.2.2 #override
+    udp: true
+
+  #------------------ 1
+  - name: 'sshocean-singavmess-104.18.2.2-ws-1 | bug->bug->server 2'
+    server: 104.18.2.2 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.18.2.2 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 2
+  - name: 'sshocean-singavmess-104.18.2.2-ws-1 | bug->server->bug 2'
+    server: 104.18.2.2 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.18.2.2 #override
+    udp: true
+  #------------------ 3
+  - name: 'sshocean-singavmess-104.18.2.2-ws-1 | bug->server->server 2'
+    server: 104.18.2.2 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 4
+  - name: 'sshocean-singavmess-104.18.2.2-ws-1 | server->bug->bug 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.18.2.2 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.18.2.2 #override
+    udp: true
+  #------------------ 5
+  - name: 'sshocean-singavmess-104.18.2.2-ws-1 | server->bug->server 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.18.2.2 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 6
+  - name: 'sshocean-singavmess-104.18.2.2-ws-1 | server->server->bug 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 104.18.2.2 #override
+    udp: true
+
+  - name: 'sgt2.sshocean.net-104.18.2.2-2 | server trojan'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.18.2.2
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-104.18.2.2-2 | grpc server'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.18.2.2
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+  - name: 'sgt2.sshocean.net-104.18.2.2-2 | server trojan1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.18.2.2
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-104.18.2.2-2 | grpc server1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.18.2.2
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+
+  - name: 'sgt2.sshocean.net-104.18.2.2-3 | server trojan'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.18.2.2
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-104.18.2.2-3 | grpc server'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.18.2.2
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+  - name: 'sgt2.sshocean.net-104.18.2.2-3 | server trojan1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.18.2.2
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-104.18.2.2-3 | grpc server1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.18.2.2
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+
+  - name: 'sgt2.sshocean.net-104.18.2.2-4 | server trojan'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.18.2.2
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-104.18.2.2-4 | grpc server'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.18.2.2
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+  - name: 'sgt2.sshocean.net-104.18.2.2-4 | server trojan1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.18.2.2
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-104.18.2.2-4 | grpc server1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 104.18.2.2
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+
+  - name: 'sshocean-singavmess-31.13.95.13-non-ws-0 | bug->bug->server'
+    server: 31.13.95.13 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 31.13.95.13 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 2
+  - name: 'sshocean-singavmess-31.13.95.13-non-ws-0 | bug->server->bug'
+    server: 31.13.95.13 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 31.13.95.13 #override
+    udp: true
+  #------------------ 3
+  - name: 'sshocean-singavmess-31.13.95.13-non-ws-0 | bug->server->server'
+    server: 31.13.95.13 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 4
+  - name: 'sshocean-singavmess-31.13.95.13-non-ws-0 | server->bug->bug'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 31.13.95.13 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 31.13.95.13 #override
+    udp: true
+  #------------------ 5
+  - name: 'sshocean-singavmess-31.13.95.13-non-ws-0 | server->bug->server'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 31.13.95.13 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 6
+  - name: 'sshocean-singavmess-31.13.95.13-non-ws-0 | server->server->bug'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 31.13.95.13 #override
+    udp: true
+
+  #------------------ 1
+  - name: 'sshocean-singavmess-31.13.95.13-non-ws-0 | bug->bug->server 2'
+    server: 31.13.95.13 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 31.13.95.13 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 2
+  - name: 'sshocean-singavmess-31.13.95.13-non-ws-0 | bug->server->bug 2'
+    server: 31.13.95.13 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 31.13.95.13 #override
+    udp: true
+  #------------------ 3
+  - name: 'sshocean-singavmess-31.13.95.13-non-ws-0 | bug->server->server 2'
+    server: 31.13.95.13 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 4
+  - name: 'sshocean-singavmess-31.13.95.13-non-ws-0 | server->bug->bug 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 31.13.95.13 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 31.13.95.13 #override
+    udp: true
+  #------------------ 5
+  - name: 'sshocean-singavmess-31.13.95.13-non-ws-0 | server->bug->server 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 31.13.95.13 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 6
+  - name: 'sshocean-singavmess-31.13.95.13-non-ws-0 | server->server->bug 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 31.13.95.13 #override
+    udp: true
+
+  - name: 'sshocean-singavmess-31.13.95.13-ws-1 | bug->bug->server'
+    server: 31.13.95.13 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 31.13.95.13 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 2
+  - name: 'sshocean-singavmess-31.13.95.13-ws-1 | bug->server->bug'
+    server: 31.13.95.13 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 31.13.95.13 #override
+    udp: true
+  #------------------ 3
+  - name: 'sshocean-singavmess-31.13.95.13-ws-1 | bug->server->server'
+    server: 31.13.95.13 #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 4
+  - name: 'sshocean-singavmess-31.13.95.13-ws-1 | server->bug->bug'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 31.13.95.13 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 31.13.95.13 #override
+    udp: true
+  #------------------ 5
+  - name: 'sshocean-singavmess-31.13.95.13-ws-1 | server->bug->server'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 31.13.95.13 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 6
+  - name: 'sshocean-singavmess-31.13.95.13-ws-1 | server->server->bug'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 443
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 31.13.95.13 #override
+    udp: true
+
+  #------------------ 1
+  - name: 'sshocean-singavmess-31.13.95.13-ws-1 | bug->bug->server 2'
+    server: 31.13.95.13 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 31.13.95.13 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 2
+  - name: 'sshocean-singavmess-31.13.95.13-ws-1 | bug->server->bug 2'
+    server: 31.13.95.13 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 31.13.95.13 #override
+    udp: true
+  #------------------ 3
+  - name: 'sshocean-singavmess-31.13.95.13-ws-1 | bug->server->server 2'
+    server: 31.13.95.13 #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 4
+  - name: 'sshocean-singavmess-31.13.95.13-ws-1 | server->bug->bug 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 31.13.95.13 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 31.13.95.13 #override
+    udp: true
+  #------------------ 5
+  - name: 'sshocean-singavmess-31.13.95.13-ws-1 | server->bug->server 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 31.13.95.13 #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1-ctb.v2rayserv.com #override
+    udp: true
+  #------------------ 6
+  - name: 'sshocean-singavmess-31.13.95.13-ws-1 | server->server->bug 2'
+    server: sg1-ctb.v2rayserv.com #override
+    port: 80
+    type: vmess
+    uuid: 803b44f1-9a0c-4a82-93a3-e20185b73e59
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb.v2rayserv.com #override
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 31.13.95.13 #override
+    udp: true
+
+  - name: 'sgt2.sshocean.net-31.13.95.13-2 | server trojan'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 31.13.95.13
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-31.13.95.13-2 | grpc server'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 31.13.95.13
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+  - name: 'sgt2.sshocean.net-31.13.95.13-2 | server trojan1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 31.13.95.13
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-31.13.95.13-2 | grpc server1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 31.13.95.13
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+
+  - name: 'sgt2.sshocean.net-31.13.95.13-3 | server trojan'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 31.13.95.13
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-31.13.95.13-3 | grpc server'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 31.13.95.13
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+  - name: 'sgt2.sshocean.net-31.13.95.13-3 | server trojan1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 31.13.95.13
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-31.13.95.13-3 | grpc server1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 31.13.95.13
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+
+  - name: 'sgt2.sshocean.net-31.13.95.13-4 | server trojan'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 31.13.95.13
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-31.13.95.13-4 | grpc server'
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 31.13.95.13
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+  - name: 'sgt2.sshocean.net-31.13.95.13-4 | server trojan1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 31.13.95.13
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+  - name: 'sgt2.sshocean.net-31.13.95.13-4 | grpc server1'
+    server: sg3-trojan.bonds.id
+    port: 80
+    type: trojan
+    password: 63beb9e0-bf5f-11ed-9771-1239d0255272
+    skip-cert-verify: true
+    sni: 31.13.95.13
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trgrpc
+    udp: true
+

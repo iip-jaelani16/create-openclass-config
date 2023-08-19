@@ -1,0 +1,132 @@
+- name: '{name} | {bug} 1'
+  server: id2.v2rayserv.com
+  port: 443
+  type: vmess
+  uuid: 361b7e18-1c4e-4f4b-b0ff-5b22aebdb688
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: '{bug}'
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: id2.v2rayserv.com
+  udp: true
+- name: '{name} | {bug} 11'
+  server: '{bug}'
+  port: 443
+  type: vmess
+  uuid: 361b7e18-1c4e-4f4b-b0ff-5b22aebdb688
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: id2.v2rayserv.com
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: id2.v2rayserv.com
+  udp: true
+- name: '{name} | {bug} 111'
+  server: '{bug}'
+  port: 443
+  type: vmess
+  uuid: 361b7e18-1c4e-4f4b-b0ff-5b22aebdb688
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: '{bug}'
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: id2.v2rayserv.com
+  udp: true
+# end vmess 443
+- name: '{name} | {bug} 2'
+  server: id2.v2rayserv.com
+  port: 80
+  type: vmess
+  uuid: 361b7e18-1c4e-4f4b-b0ff-5b22aebdb688
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: '{bug}'
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: id2.v2rayserv.com
+  udp: true
+- name: '{name} | {bug} 22'
+  server: '{bug}'
+  port: 80
+  type: vmess
+  uuid: 361b7e18-1c4e-4f4b-b0ff-5b22aebdb688
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: id2.v2rayserv.com
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: id2.v2rayserv.com
+  udp: true
+- name: '{name} | {bug} 222'
+  server: '{bug}'
+  port: 80
+  type: vmess
+  uuid: 361b7e18-1c4e-4f4b-b0ff-5b22aebdb688
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: '{bug}'
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: id2.v2rayserv.com
+  udp: true
+# end vmess 80
+- name: '{name} | {bug} 7'
+  server: idt1.sshocean.net
+  port: 443
+  type: trojan
+  password: d0b44c65-a078-4b6d-a52d-813e6774dc96
+  skip-cert-verify: true
+  sni: '{bug}'
+  udp: true
+- name: '{name} | {bug} 8'
+  server: idt1.sshocean.net
+  port: 443
+  type: trojan
+  password: d0b44c65-a078-4b6d-a52d-813e6774dc96
+  skip-cert-verify: true
+  sni: '{bug}'
+  network: ws
+  ws-opts:
+    path: /websocket
+    headers:
+      Host: idt1.sshocean.net
+  udp: true
+- name: '{name} | {bug} 9'
+  server: idt1.sshocean.net
+  port: 443
+  type: trojan
+  password: d0b44c65-a078-4b6d-a52d-813e6774dc96
+  skip-cert-verify: true
+  sni: '{bug}'
+  network: ws
+  ws-opts:
+    path: /websocket
+    headers:
+      Host: idt1.sshocean.net
+  udp: true

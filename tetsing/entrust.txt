@@ -1,0 +1,237 @@
+104.18.38.141
+172.64.149.115
+18.64.37.13
+18.64.37.90
+18.64.37.31
+18.64.37.98
+108.138.141.54
+108.138.141.109
+108.138.141.6
+108.138.141.123
+104.17.24.14
+104.17.25.14
+199.232.45.124
+104.18.38.141
+172.64.149.115
+18.64.37.42
+18.64.37.98
+18.64.37.46
+18.64.37.49
+72.140.233.32
+72.140.233.27
+172.64.149.115
+104.18.38.141
+72.140.233.18
+18.64.37.119
+18.64.37.45
+18.64.37.14
+18.64.37.93
+13.110.61.161
+13.109.186.161
+13.109.189.161
+cloud.entrust.net;www.entrust.com;cmp.osano.com;static.hotjar.com;cdnjs.cloudflare.com;store.entrust.com;in.entrust.com;partnercentral.entrust.com;partners.entrust.net;login.entrust.net;web.entrust.com;ssoext.us.trustedauth.com;myentrust.my.salesforce.com
+
+
+TARGET --> https://cloud.entrust.net
+IP: 72.140.233.18
+CipherSuite: TLS_AES_128_GCM_SHA256
+Protocol: TLSv1.3
+PeerPrincipalCN=cloud.entrust.net, SERIALNUMBER=1913605, OID.2.5.4.15=Private Organization, O=Entrust Limited, OID.1.3.6.1.4.1.311.60.2.1.2=Ontario, OID.1.3.6.1.4.1.311.60.2.1.3=CA, L=Kanata, ST=Ontario, C=CA
+HTTP/1.1 302 Found
+Connection: Keep-Alive
+Content-Length: 226
+Content-Type: text/html; charset=iso-8859-1
+Date: Sat, 11 Mar 2023 07:01:11 GMT
+Keep-Alive: timeout=15, max=100
+Location: http://cloud.entrust.net:443/EntrustCloud/
+Set-Cookie: BIGipServer~ECS_PROD~cloud.entrust.net.443=!v0YD4H2KR2DvI5t7a2jvbvV9TMVHIz6XJoGxYEKzVT6ADQKw9tufghoQ8YzPx1muJgGtqLFxjljP16c=; path=/; Httponly; Secure, TS012873c5=01a277d5fef912549a16d930d8898f2bf0006f44e0b0915d60bce2be24aa15d783d1bb8e8d45c9538c29f5cd4e59c227c9913fa559d8d633c7d636ddda3212efcf3907dede; Path=/; Domain=.cloud.entrust.net
+Strict-Transport-Security: max-age=31536000
+Vary: Accept-Encoding
+X-Android-Received-Millis: 1678518072070
+X-Android-Response-Source: NETWORK 302
+X-Android-Selected-Protocol: http/1.1
+X-Android-Sent-Millis: 1678518071731
+--------------------------------------------------------
+TARGET --> https://www.entrust.com
+IP: 172.64.149.115
+IP: 104.18.38.141
+IP: 172.64.149.115
+IP: 104.18.38.141
+--------------------------------------------------------
+TARGET --> https://cmp.osano.com
+IP: 18.64.37.90
+IP: 18.64.37.98
+IP: 18.64.37.31
+IP: 18.64.37.13
+CipherSuite: TLS_AES_128_GCM_SHA256
+Protocol: TLSv1.3
+PeerPrincipalCN=cmp.osano.com
+HTTP/1.1 200 OK
+Age: 25295
+Alt-Svc: h3=":443"; ma=86400
+Connection: keep-alive
+Content-Type: text/html
+Date: Sat, 11 Mar 2023 00:00:14 GMT
+ETag: W/"287b497c992487af362d33204f87d28f"
+Last-Modified: Thu, 21 Oct 2021 22:01:08 GMT
+Referrer-Policy: same-origin
+Server: AmazonS3
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Transfer-Encoding: chunked
+Vary: Accept-Encoding, Origin
+Via: 1.1 7aa34be65507aa68fa301856d87630e8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: R-rx00SYYKQIe8W9LxkhPJ45wl4nPUvT-VTHOg2MICtM_7wwLu690w==
+X-Amz-Cf-Pop: CGK50-P3
+x-amz-version-id: xT1PkIFehetvNf5lINcU02FbT3u47kBr
+X-Android-Received-Millis: 1678518108554
+X-Android-Response-Source: NETWORK 200
+X-Android-Selected-Protocol: http/1.1
+X-Android-Sent-Millis: 1678518108505
+X-Cache: Hit from cloudfront
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+--------------------------------------------------------
+TARGET --> https://static.hotjar.com
+IP: 108.138.141.109
+IP: 108.138.141.6
+IP: 108.138.141.54
+IP: 108.138.141.123
+CipherSuite: TLS_AES_128_GCM_SHA256
+Protocol: TLSv1.3
+PeerPrincipalCN=*.hotjar.com
+HTTP/1.1 200 OK
+Cache-Control: private, no-cache, no-store, max-age=0, must-revalidate
+Connection: keep-alive
+Content-Type: text/html; charset=utf-8
+Date: Sat, 11 Mar 2023 07:01:55 GMT
+ETag: "4700e-AtB0HaCY+DSDiUlnJj2KUsJVbtQ"
+Set-Cookie: NEXT_LOCALE=en-US; Max-Age=2592000; Domain=.hotjar.com; Path=/, hj_visitor=new; Path=/
+Strict-Transport-Security: max-age=2592000; includeSubDomains
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+Via: 1.1 241c745b3f27cc390fa34b26128015d4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: AIFV6cms4vpdraPe_zEqrGw4B_OWc7187AziQMbEsoYLXPv1aH_qBA==
+X-Amz-Cf-Pop: CGK50-P3
+X-Android-Received-Millis: 1678518115744
+X-Android-Response-Source: NETWORK 200
+X-Android-Selected-Protocol: http/1.1
+X-Android-Sent-Millis: 1678518114778
+X-Cache: Miss from cloudfront
+X-Powered-By: Next.js
+--------------------------------------------------------
+TARGET --> https://cdnjs.cloudflare.com
+IP: 104.17.25.14
+IP: 104.17.24.14
+IP: 104.17.25.14
+IP: 104.17.24.14
+--------------------------------------------------------
+TARGET --> https://store.entrust.com
+IP: 199.232.45.124
+IP: 199.232.45.124
+--------------------------------------------------------
+TARGET --> https://in.entrust.com
+IP: 104.18.38.141
+IP: 172.64.149.115
+IP: 104.18.38.141
+IP: 172.64.149.115
+--------------------------------------------------------
+TARGET --> https://partnercentral.entrust.com
+IP: 18.64.37.98
+IP: 18.64.37.42
+IP: 18.64.37.46
+IP: 18.64.37.49
+CipherSuite: TLS_AES_128_GCM_SHA256
+Protocol: TLSv1.3
+PeerPrincipalCN=partnercentral.entrust.com, SERIALNUMBER=705421, OID.2.5.4.15=Private Organization, O=Entrust Corporation, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, L=Shakopee, ST=Minnesota, C=US
+HTTP/1.1 200 OK
+Age: 456362
+Cache-Control: max-age=31536000
+Connection: keep-alive
+Content-Security-Policy: upgrade-insecure-requests; default-src 'self' ziftsolutions.ccindex.cn *.eu.ziftsolutions.com *.eu.ziftone.com *.eu.zift123.com *.eu.ziftmarcom.com *.ziftsolutions.com *.staging.ziftone.com *.ziftone.com *.google-analytics.com *.wistia.com *.wistia.net blob: ; img-src 'self' http: https://*.trychameleon.com https://*.chmln-cdn.com https: ziftsolutions.ccindex.cn *.eu.ziftsolutions.com *.eu.ziftone.com *.eu.zift123.com *.eu.ziftmarcom.com  *.ziftsolutions.com s3.amazonaws.com *.google-analytics.com *.wistia.com *.wistia.net data: blob: ; script-src 'self' 'unsafe-inline' 'unsafe-eval' https: https://*.trychameleon.com checkout.stripe.com *.eu.ziftsolutions.com *.eu.ziftone.com *.eu.zift123.com *.eu.ziftmarcom.com *.ziftsolutions.com *.ziftone.com *.getbee.io *.googleapis.com *.google-analytics.com *.zdassets.com *.googletagmanager.com *.google.com *.pendo.io browser-update.org static.zdassets.com s3.amazonaws.com *.zopim.com *.churnzero.net *.marketo.com *.wistia.com *.wistia.net data: ; connect-src 'self' https: wss://grid.meya.ai wss://partnerapps.eu.qlikcloud.com https://*.trychameleon.com ziftsolutions.ccindex.cn *.eu.ziftsolutions.com *.eu.ziftone.com *.eu.zift123.com *.eu.ziftmarcom.com *.ziftsolutions.com *.ziftone.com *.zift123.com *.zendesk.com *.zdassets.com *.zopim.com wss://widget-mediator.zopim.com *.churnzero.net *.getbee.io *.google-analytics.com *.wistia.com *.wistia.net *.litix.io data: ; style-src 'self' 'unsafe-inline' blob: https: fast.wistia.com https://*.trychameleon.com; font-src 'self' https: https://*.chmln-cdn.com fast.wistia.com fast.wistia.net https://*.chmln-cdn.com data:; media-src 'self' https: ziftsolutions.ccindex.cn *.eu.ziftsolutions.com *.eu.ziftone.com *.eu.zift123.com *.eu.ziftmarcom.com *.ziftsolutions.com *.zift123.com *.ziftone.com *.looker.com *.ziftmarcom.com *.lenovo.com *.wistia.com *.wistia.net blob: data: ; object-src 'self' https: *.eu.ziftsolutions.com *.eu.ziftone.com *.eu.zift123.com *.eu.ziftmarcom.com *.ziftsolutions.com *.zift123.com *.ziftone.com *.looker.com *.ziftmarcom.com; frame-src 'self' https: https://*.trychameleon.com https://*.trychameleon.com https://*.chmln-cdn.com *.onserro.com *.onserrodemo.com ziftsolutions.ccindex.cn *.eu.ziftsolutions.com *.eu.ziftone.com *.eu.zift123.com *.eu.ziftmarcom.com *.ziftsolutions.com *.zift123.com *.staging.ziftone.com *.ziftone.com *.looker.com *.ziftmarcom.com *.getbee.io *.getbee.com; frame-ancestors 'self' https: *.onserro.com *.onserrodemo.com ziftsolutions.ccindex.cn *.eu.ziftsolutions.com *.eu.ziftone.com *.eu.zift123.com *.eu.ziftmarcom.com *.ziftsolutions.com *.zift123.com *.ziftone.com *.looker.com *.ziftmarcom.com www.sandlerportalmarketing.com http://transform.cisco.com https://transform.cisco.com https://*.lookbookhq.com https://*.pathfactory.com http://*.lookbookhq.com http://*.pathfactory.com; worker-src 'self' blob: ;
+Content-Type: text/html
+Date: Mon, 06 Mar 2023 00:17:09 GMT
+ETag: W/"f5d51e10fe35ffc756876d22646d104f"
+Expires: Sun, 05 Mar 2023 21:02:53 GMT
+Last-Modified: Sun, 05 Mar 2023 21:02:55 GMT
+Referrer-Policy: no-referrer-when-downgrade
+Server: AmazonS3
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+Via: 1.1 b94cab18eeb36de9becac0ca8539e6bc.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: mZa1aIgDlQCklaDnJiIPUGTJuxSc6YUcYdhGr9CS_kilwI5RuKsHTA==
+X-Amz-Cf-Pop: CGK50-P3
+x-amz-id-2: CBxc2g/B244OIXaBYQlkyfvMG1+bnwvt52KB0ihcPzymLODv7QDejb+JJgqgXfhVy4jabv8/giHfQlbhC9zzgQ==
+x-amz-replication-status: FAILED
+x-amz-request-id: S0XPRAR5ZB86RGVC
+x-amz-server-side-encryption: AES256
+x-amz-version-id: ceSkTjlRq3svApyfSJtttiKFK4.Ri_P1
+X-Android-Received-Millis: 1678518191175
+X-Android-Response-Source: NETWORK 200
+X-Android-Selected-Protocol: http/1.1
+X-Android-Sent-Millis: 1678518190999
+X-Cache: Hit from cloudfront
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+--------------------------------------------------------
+TARGET --> https://partners.entrust.net
+IP: 72.140.233.32
+CipherSuite: TLS_AES_128_GCM_SHA256
+Protocol: TLSv1.3
+PeerPrincipalCN=partners.entrust.net, SERIALNUMBER=1913605, OID.2.5.4.15=Private Organization, O=Entrust Limited, OID.1.3.6.1.4.1.311.60.2.1.2=Ontario, OID.1.3.6.1.4.1.311.60.2.1.3=CA, L=Kanata, ST=Ontario, C=CA
+HTTP/1.1 200 
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Connection: Keep-Alive
+Content-Type: text/html;charset=UTF-8
+Date: Sat, 11 Mar 2023 07:03:20 GMT
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Keep-Alive: timeout=15, max=99
+Pragma: no-cache
+Set-Cookie: igfmsessionid=1A45778B8C7F42AFB4DEE6E8BFBEA85CEC7ADF7EA95010556E1A103E164B63B9; Domain=login.entrust.net; Path=/IdentityGuardFederation; Secure; HttpOnly, BIGipServer~ECS_PROD~login.entrust.net.443=!DAb4Lt1x0CyqKkV7a2jvbvV9TMVHIyVXV9AILaqrjs1wCMnAThtd8Fvh4aonwiBRIfUyfiZb8atk/Ag=; path=/; Httponly; Secure, TS0190fa8b=01a277d5fe6f910845e699fbf19e1b57653455658f0aa4b530d33ccf4c716aa52b768dd76e708891d345d0919a4fe12ee512bd58e7b0c2f17a8ccce754614a68d0560f105f; Path=/; Domain=.login.entrust.net, TS01415d3c=01a277d5fef59650e8e1322fa9d4ebedc87aa51ec10aa4b530d33ccf4c716aa52b768dd76e851e9f767e5d915941d86dbcf062eed67a582b67e5eebb06098ea51c8b087bdd; path=/IdentityGuardFederation
+Strict-Transport-Security: max-age=31536000
+Vary: Accept-Encoding
+X-Android-Received-Millis: 1678518200541
+X-Android-Response-Source: NETWORK 200
+X-Android-Selected-Protocol: http/1.1
+X-Android-Sent-Millis: 1678518200044
+X-Frame-Options: DENY
+--------------------------------------------------------
+TARGET --> https://login.entrust.net
+IP: 72.140.233.27
+CipherSuite: TLS_AES_128_GCM_SHA256
+Protocol: TLSv1.3
+PeerPrincipalCN=login.entrust.net, SERIALNUMBER=1913605, OID.2.5.4.15=Private Organization, O=Entrust Limited, OID.1.3.6.1.4.1.311.60.2.1.2=Ontario, OID.1.3.6.1.4.1.311.60.2.1.3=CA, L=Kanata, ST=Ontario, C=CA
+HTTP/1.1 200 
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Connection: Keep-Alive
+Content-Type: text/html;charset=UTF-8
+Date: Sat, 11 Mar 2023 07:03:27 GMT
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Keep-Alive: timeout=15, max=99
+Pragma: no-cache
+Set-Cookie: igfmsessionid=518D3B98213755629E1C3A11CB0F6EE2EC8AD0E8A15BA9D0AC97BB3B916C9F47; Domain=login.entrust.net; Path=/IdentityGuardFederation; Secure; HttpOnly, BIGipServer~ECS_PROD~login.entrust.net.443=!+yvqSJQ/FB9gRCZ7a2jvbvV9TMVHIxaSzd0Ej6Et4h7GGMAUOWEt9xv2PiDHZ3JynsxGJm59l6wXHdQ=; path=/; Httponly; Secure, TS0190fa8b=01a277d5feb968b70f60cb76a798382f25325a8254782c977e5b297b5ebdd9f93898c43179c9dfda2c4b0b154457458b0de7203f21ec3848091f8832754f53f7f73fbdf3ff; Path=/; Domain=.login.entrust.net, TS01415d3c=01a277d5fe8e55d6433d71c50b9b600a7ecd780771782c977e5b297b5ebdd9f93898c43179e36edad6094ab88cf781527ad74d7e590a9301bb55622e13db70254fb47b3cf7; path=/IdentityGuardFederation
+Strict-Transport-Security: max-age=31536000
+Vary: Accept-Encoding
+X-Android-Received-Millis: 1678518207649
+X-Android-Response-Source: NETWORK 200
+X-Android-Selected-Protocol: http/1.1
+X-Android-Sent-Millis: 1678518207285
+X-Frame-Options: DENY
+--------------------------------------------------------
+TARGET --> https://web.entrust.com
+IP: 172.64.149.115
+IP: 104.18.38.141
+IP: 172.64.149.115
+IP: 104.18.38.141
+--------------------------------------------------------
+TARGET --> https://ssoext.us.trustedauth.com
+IP: 18.64.37.45
+IP: 18.64.37.14
+IP: 18.64.37.93
+IP: 18.64.37.119
+IP: 18.64.37.45
+IP: 18.64.37.14
+IP: 18.64.37.93
+IP: 18.64.37.119
+--------------------------------------------------------
+TARGET --> https://myentrust.my.salesforce.com

@@ -1,0 +1,51 @@
+proxies:
+  - name: 'sshocean-keytaro7-104.22.24.131-non-ws | bug'
+    server: 104.22.24.131
+    port: 80
+    type: vmess
+    uuid: c09132f0-684e-46d8-a04b-f10796e9472d
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg3-mlb.v2rayserv.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg3-mlb.v2rayserv.com
+    udp: true
+  - name: 'sshocean-keytaro7-104.22.24.131-ws | bug'
+    server: 104.22.24.131
+    port: 443
+    type: vmess
+    uuid: c09132f0-684e-46d8-a04b-f10796e9472d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg3-mlb.v2rayserv.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg3-mlb.v2rayserv.com
+    udp: true
+
+  #  hahahahaha
+  - name: 'sshocean-regsitertest0-104.22.24.131-non-ws | bug'
+    server: 104.22.24.131
+    port: 80
+    type: vmess
+    uuid: 60c48b53-5fe3-456b-97a3-4e8da599f0d2
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sgovh1.v2rayserv.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sgovh1.v2rayserv.com
+    udp: true

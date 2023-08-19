@@ -1,0 +1,96 @@
+  - name: '{name} | server'
+    server: '{server}'
+    port: '{port}'
+    type: vmess
+    uuid: '{uuid}'
+    alterId: '{aid}'
+    cipher: auto
+    tls: '{tls}'
+    skip-cert-verify: true
+    servername: '{bug}'
+    network: ws
+    ws-opts:
+      path: '{path}'
+      headers:
+        Host: '{bug}'
+    udp: '{udp}'
+  - name: '{name} | bug'
+    server: '{bug}'
+    port: '{port}'
+    type: vmess
+    uuid: '{uuid}'
+    alterId: '{aid}'
+    cipher: auto
+    tls: '{tls}'
+    skip-cert-verify: true
+    servername: '{server}'
+    network: ws
+    ws-opts:
+      path: '{path}'
+      headers:
+        Host: '{server}'
+    udp: '{udp}'
+  - name: '{name} | bug'
+    server: '{bug}'
+    port: 8801
+    type: vmess
+    uuid: '{uuid}'
+    alterId: '{aid}'
+    cipher: auto
+    tls: '{tls}'
+    skip-cert-verify: true
+    servername: '{server}'
+    network: ws
+    ws-opts:
+      path: '{path}'
+      headers:
+        Host: '{server}'
+    udp: '{udp}'
+  - name: '{name} | bug'
+    server: '{bug}'
+    port: 8801
+    type: vmess
+    uuid: '{uuid}'
+    alterId: '{aid}'
+    cipher: auto
+    tls: '{tls}'
+    skip-cert-verify: true
+    servername: '{server}'
+    network: ws
+    ws-opts:
+      path: '{path}'
+      headers:
+        Host: '{server}'
+    udp: '{udp}'
+  - name: '{name} | bug'
+    server: '{bug}'
+    port: 8810
+    type: vmess
+    uuid: '{uuid}'
+    alterId: '{aid}'
+    cipher: auto
+    tls: '{tls}'
+    skip-cert-verify: true
+    servername: '{server}'
+    network: ws
+    ws-opts:
+      path: '{path}'
+      headers:
+        Host: '{server}'
+    udp: '{udp}'
+  - name: '{name} | bug'
+    server: '{bug}'
+    port: 8810
+    type: vmess
+    uuid: '{uuid}'
+    alterId: '{aid}'
+    cipher: auto
+    tls: '{tls}'
+    skip-cert-verify: true
+    servername: '{server}'
+    network: ws
+    ws-opts:
+      path: '{path}'
+      headers:
+        Host: '{server}'
+    udp: '{udp}'

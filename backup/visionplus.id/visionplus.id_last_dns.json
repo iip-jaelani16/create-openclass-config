@@ -1,0 +1,496 @@
+[
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:e4::ac40:aa03", "ttl": 300 },
+    { "type": "A", "value": "172.64.170.3", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:e4::ac40:ab03", "ttl": 300 },
+    { "type": "A", "value": "172.64.171.3", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [
+    { "type": "A", "value": "202.147.193.168", "ttl": 300 },
+    {
+      "type": "TXT",
+      "value": "loaderio=35e0703bcd91f82ca58c93e14b617edf",
+      "ttl": 300
+    }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [
+    { "type": "A", "value": "202.147.193.151", "ttl": 300 },
+    { "type": "A", "value": "202.147.193.152", "ttl": 300 },
+    { "type": "A", "value": "202.147.193.170", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [{ "type": "A", "value": "202.147.193.148", "ttl": 300 }],
+  [
+    { "type": "A", "value": "202.147.193.149", "ttl": 300 },
+    { "type": "A", "value": "202.147.193.148", "ttl": 300 },
+    { "type": "A", "value": "202.147.193.158", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [{ "type": "A", "value": "110.50.83.174", "ttl": 300 }],
+  [{ "type": "A", "value": "110.50.83.174", "ttl": 300 }],
+  [{ "type": "A", "value": "8.215.34.157", "ttl": 300 }],
+  [{ "type": "A", "value": "149.129.255.233", "ttl": 300 }],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [
+    { "type": "A", "value": "202.80.208.173", "ttl": 300 },
+    { "type": "A", "value": "202.80.208.171", "ttl": 300 },
+    { "type": "A", "value": "202.80.208.172", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [
+    { "type": "A", "value": "8.25.82.211", "ttl": 60 },
+    {
+      "type": "CNAME",
+      "value": "games.visionplus.id.w.kunlunsl.com",
+      "ttl": 300
+    }
+  ],
+  [
+    {
+      "type": "TXT",
+      "value": "loaderio=eba292470cc95e3e1d490c57e3628ace",
+      "ttl": 300
+    },
+    { "type": "A", "value": "202.147.193.149", "ttl": 300 }
+  ],
+  [
+    { "type": "A", "value": "202.147.193.151", "ttl": 300 },
+    { "type": "A", "value": "202.147.193.152", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [
+    { "type": "A", "value": "202.147.193.149", "ttl": 300 },
+    { "type": "A", "value": "202.147.193.148", "ttl": 300 },
+    { "type": "A", "value": "202.147.193.163", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 },
+    {
+      "type": "TXT",
+      "value": "loaderio=15fea60fd1632bf6aaa1ba5e971910dd",
+      "ttl": 300
+    }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [{ "type": "A", "value": "110.50.83.172", "ttl": 300 }],
+  [
+    { "type": "A", "value": "202.147.193.152", "ttl": 299 },
+    { "type": "A", "value": "202.147.193.151", "ttl": 299 }
+  ],
+  [{ "type": "A", "value": "202.147.193.148", "ttl": 300 }],
+  [{ "type": "A", "value": "202.147.193.149", "ttl": 300 }],
+  [
+    { "type": "A", "value": "202.147.193.152", "ttl": 299 },
+    { "type": "A", "value": "202.147.193.151", "ttl": 299 }
+  ],
+  [{ "type": "A", "value": "110.50.83.174", "ttl": 300 }],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [{ "type": "A", "value": "110.50.83.174", "ttl": 299 }],
+  [
+    {
+      "type": "TXT",
+      "value": "loaderio=be2f798e05e82bd497dc11572e06b963",
+      "ttl": 300
+    },
+    { "type": "A", "value": "202.147.193.158", "ttl": 300 }
+  ],
+  [
+    { "type": "A", "value": "202.147.193.153", "ttl": 299 },
+    { "type": "A", "value": "202.147.193.157", "ttl": 299 },
+    { "type": "A", "value": "202.147.193.156", "ttl": 299 }
+  ],
+  [
+    { "type": "A", "value": "202.147.193.148", "ttl": 299 },
+    { "type": "A", "value": "202.147.193.149", "ttl": 299 }
+  ],
+  [
+    { "type": "A", "value": "202.147.193.153", "ttl": 300 },
+    { "type": "A", "value": "202.147.193.156", "ttl": 300 },
+    { "type": "A", "value": "202.147.193.157", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [
+    { "type": "A", "value": "110.50.83.17", "ttl": 299 },
+    { "type": "A", "value": "110.50.83.172", "ttl": 299 }
+  ],
+  [{ "type": "A", "value": "110.50.83.174", "ttl": 299 }],
+  [{ "type": "A", "value": "110.50.83.18", "ttl": 299 }],
+  [{ "type": "A", "value": "110.50.83.179", "ttl": 300 }],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [
+    {
+      "type": "TXT",
+      "value": "loaderio=105ff7b96489709f273a9a1417b69c4d",
+      "ttl": 300
+    },
+    { "type": "A", "value": "202.147.193.168", "ttl": 300 }
+  ],
+  [
+    { "type": "A", "value": "202.147.193.167", "ttl": 300 },
+    {
+      "type": "TXT",
+      "value": "loaderio=4a36be53971080ed882d03e5f0bcba0e",
+      "ttl": 300
+    },
+    { "type": "A", "value": "202.147.193.165", "ttl": 300 }
+  ],
+  [
+    {
+      "type": "TXT",
+      "value": "facebook-domain-verification=la9i0gxhiqz8nwbxo538mes34oeanf",
+      "ttl": 60
+    },
+    { "type": "TXT", "value": "v=spf1 a mx ~all", "ttl": 60 },
+    { "type": "NS", "value": "yolanda.ns.cloudflare.com", "ttl": 21600 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 },
+    {
+      "type": "TXT",
+      "value": "google-site-verification=gGuwuTSeAmNhzNDkB7FHH_utZLkjsU0L-rRHWn1wQvg",
+      "ttl": 60
+    },
+    { "priority": 0, "type": "MX", "value": "mail.visionplus.id", "ttl": 300 },
+    {
+      "rname": "dns.cloudflare.com",
+      "retry": 2400,
+      "value": "jack.ns.cloudflare.com",
+      "minimum": 3600,
+      "refresh": 10000,
+      "expire": 604800,
+      "ttl": 3600,
+      "serial": 2302709213,
+      "type": "SOA"
+    },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    {
+      "type": "TXT",
+      "value": "google-site-verification=-oyL7HX5599EOzTOzf1wYUju4goueEbTlSzHvNKZFiY",
+      "ttl": 60
+    },
+    {
+      "type": "TXT",
+      "value": "google-site-verification=8xVTTUZE76PlccWtn0-ssvdiA1PW8GupIAhN2oESX7Y",
+      "ttl": 60
+    },
+    { "type": "NS", "value": "jack.ns.cloudflare.com", "ttl": 21600 },
+    { "type": "TXT", "value": "n83n45lg8tp6jtd9gdxw1jlmqrnc8pwr", "ttl": 60 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    {
+      "type": "TXT",
+      "value": "google-site-verification=GJB7aIafs_EzD_xKwYI0llfnaF2gOJ7sbY_iCd4p-S4",
+      "ttl": 60
+    },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 }
+  ],
+  [
+    { "type": "A", "value": "202.147.193.164", "ttl": 300 },
+    {
+      "type": "TXT",
+      "value": "loaderio=231e14f5f3b1cee5a10f5ba3fa1662f5",
+      "ttl": 300
+    },
+    { "type": "A", "value": "202.147.193.169", "ttl": 300 },
+    { "type": "A", "value": "202.147.193.155", "ttl": 300 },
+    { "type": "A", "value": "202.147.193.154", "ttl": 300 }
+  ],
+  [{ "type": "A", "value": "202.147.193.158", "ttl": 300 }],
+  [],
+  [
+    { "type": "A", "value": "202.147.193.149", "ttl": 300 },
+    {
+      "type": "TXT",
+      "value": "loaderio=15f9d8e5002c364e2091327254480087",
+      "ttl": 300
+    }
+  ],
+  [],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 246 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 246 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 246 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 246 }
+  ],
+  [
+    {
+      "type": "CNAME",
+      "value": "36d6a8a2.overseavideo.sched.apdcdn.com",
+      "ttl": 599
+    },
+    { "type": "A", "value": "23.248.167.29", "ttl": 179 },
+    { "type": "A", "value": "23.248.167.28", "ttl": 179 },
+    {
+      "type": "CNAME",
+      "value": "cdnodea.visionplus.id.cdn.dnsv1.com",
+      "ttl": 58
+    },
+    {
+      "type": "CNAME",
+      "value": "cdnodea.visionplus.id.c.cdnhwc1.com",
+      "ttl": 298
+    },
+    {
+      "type": "CNAME",
+      "value": "cdnodea.visionplus.id.c.cdnhwc1.com",
+      "ttl": 299
+    },
+    {
+      "type": "CNAME",
+      "value": "cdnodea.visionplus.id.cdn.dnsv1.com",
+      "ttl": 59
+    },
+    { "type": "A", "value": "23.248.167.17", "ttl": 179 },
+    {
+      "type": "CNAME",
+      "value": "36d6a8a2.overseavideo.sched.apdcdn.com",
+      "ttl": 598
+    }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [{ "type": "A", "value": "202.147.193.158", "ttl": 300 }],
+  [
+    { "type": "A", "value": "202.147.193.149", "ttl": 300 },
+    {
+      "type": "TXT",
+      "value": "loaderio=65e1914944b508bf9e868e0ce76a168c",
+      "ttl": 300
+    }
+  ],
+  [{ "type": "A", "value": "110.50.83.174", "ttl": 299 }],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [{ "type": "A", "value": "110.50.83.70", "ttl": 300 }],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [{ "type": "A", "value": "128.199.239.40", "ttl": 299 }],
+  [{ "type": "A", "value": "202.147.193.148", "ttl": 300 }],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    {
+      "type": "TXT",
+      "value": "loaderio=8e27b3a98d5537eff55ecf3f70030062",
+      "ttl": 300
+    },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [
+    { "type": "A", "value": "202.147.193.153", "ttl": 300 },
+    {
+      "type": "TXT",
+      "value": "loaderio=aad7e549eaa73819b149c46f6685fa15",
+      "ttl": 300
+    },
+    { "type": "A", "value": "202.147.193.156", "ttl": 300 },
+    { "type": "A", "value": "202.147.193.162", "ttl": 300 },
+    { "type": "A", "value": "202.147.193.157", "ttl": 300 }
+  ],
+  [
+    { "type": "A", "value": "110.50.83.17", "ttl": 299 },
+    { "type": "A", "value": "110.50.83.172", "ttl": 299 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ],
+  [
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebab", "ttl": 300 },
+    { "type": "AAAA", "value": "2606:4700:3038::6815:ebac", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.172", "ttl": 300 },
+    { "type": "A", "value": "104.21.235.171", "ttl": 300 }
+  ]
+]

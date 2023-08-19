@@ -1,0 +1,14 @@
+- name: GROUP_FALLBACK_{group_name}
+  type: fallback
+  disable-udp: false
+  use: '{provider_use}'
+  url: http://www.gstatic.com/generate_204
+  interval: '10'
+  tolerance: '300'
+- name: GROUP_SELECT_{group_name}
+  type: select
+  disable-udp: false
+  use: '{provider_use}'
+  url: http://www.gstatic.com/generate_204
+  interval: '10'
+  tolerance: '300'

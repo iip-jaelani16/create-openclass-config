@@ -1,0 +1,6 @@
+connect.facebook.net
+connect.facebook.com
+api.onesignal.com
+visionplus.id
+www.visionplus.id
+cdnodeb.visionplus.id
